@@ -148,6 +148,78 @@
    "icon": "icons/markdown.svg",
    "url": "skills/markdown-avancado.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "manipular-imagens-pillow",
+   "type": "skill",
+   "name": "Manipular imagens (Pillow)",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Redimensiona, recorta, converte, comprime, monta colagens e adiciona texto/marca d'água em imagens com Pillow, sem instalar programa externo (ImageMagick).",
+   "tags": ["imagem", "pillow", "python"],
+   "icon": "icons/image.svg",
+   "url": "skills/manipular-imagens-pillow.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "capturar-tela-janelas",
+   "type": "skill",
+   "name": "Capturar tela e janelas específicas",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Captura a tela inteira, um monitor específico ou uma janela por título no Windows, usando só PowerShell + .NET, para alimentar a leitura de imagem.",
+   "tags": ["windows", "captura-de-tela", "powershell"],
+   "icon": "icons/monitor.svg",
+   "url": "skills/capturar-tela-janelas.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "gerar-qrcode-codigo-barras",
+   "type": "skill",
+   "name": "QR Code, código de barras e QR PIX",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Gera QR Code (com logo), código de barras EAN-13/Code128 e QR PIX estático (payload EMV com CRC16), prontos para impressão em etiquetas.",
+   "tags": ["qrcode", "codigo-de-barras", "pix"],
+   "icon": "icons/qr-code.svg",
+   "url": "skills/gerar-qrcode-codigo-barras.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "texto-para-voz",
+   "type": "skill",
+   "name": "Texto para voz (TTS)",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Gera áudio a partir de texto com as vozes do Windows (SAPI, offline) ou vozes neurais via edge-tts, com SSML para pausas e ênfase.",
+   "tags": ["tts", "audio", "voz"],
+   "icon": "icons/volume-2.svg",
+   "url": "skills/texto-para-voz.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "gerar-graficos-matplotlib",
+   "type": "skill",
+   "name": "Gráficos como imagem (matplotlib)",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Gera gráficos de barra, linha, pizza e Gantt como PNG/SVG com tema visual consistente, para embutir em relatórios e documentos.",
+   "tags": ["gráficos", "matplotlib", "python"],
+   "icon": "icons/bar-chart-3.svg",
+   "url": "skills/gerar-graficos-matplotlib.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "remover-fundo-imagem",
+   "type": "skill",
+   "name": "Remover fundo e otimizar imagem para web",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Remove o fundo de uma imagem (rembg) e otimiza para web (WebP/AVIF, sprites), sem instalar programa externo.",
+   "tags": ["imagem", "rembg", "web"],
+   "icon": "icons/scissors.svg",
+   "url": "skills/remover-fundo-imagem.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
   }
  ]
 }
