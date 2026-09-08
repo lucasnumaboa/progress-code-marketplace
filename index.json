@@ -820,6 +820,54 @@
    "icon": "icons/list-ordered.svg",
    "url": "skills/concorrencia-filas.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "cicd-pipelines",
+   "type": "skill",
+   "name": "CI/CD (GitHub Actions, GitLab, Azure DevOps)",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Pipelines com segredos, cache, artefatos, matrizes e deploy condicional/com aprovação, nas três plataformas mais comuns.",
+   "tags": ["ci-cd", "github-actions", "devops"],
+   "icon": "icons/githubactions.svg",
+   "url": "skills/cicd-pipelines.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "azure-para-desenvolvedores",
+   "type": "skill",
+   "name": "Azure para desenvolvedores",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "az CLI para App Service, Storage, Key Vault e Functions, autenticação de aplicação (Service Principal) e monitoramento de custos.",
+   "tags": ["azure", "cloud"],
+   "icon": "icons/azure.svg",
+   "url": "skills/azure-para-desenvolvedores.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "aws-para-desenvolvedores",
+   "type": "skill",
+   "name": "AWS para desenvolvedores",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "aws CLI para S3, Lambda, EC2 e IAM com permissão mínima, com atenção especial a custo (stop vs. terminate).",
+   "tags": ["aws", "cloud"],
+   "icon": "icons/aws.svg",
+   "url": "skills/aws-para-desenvolvedores.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "infra-como-codigo-terraform",
+   "type": "skill",
+   "name": "Infra como código (Terraform/Bicep)",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Estrutura, state remoto, módulos, plan/apply seguro e por que o Terraform às vezes quer destruir algo inesperado (drift).",
+   "tags": ["terraform", "bicep", "iac"],
+   "icon": "icons/terraform.svg",
+   "url": "skills/infra-como-codigo-terraform.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
   }
  ]
 }
