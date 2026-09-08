@@ -424,6 +424,102 @@
    "icon": "icons/mail.svg",
    "url": "skills/ler-enviar-email.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "mensagens-microsoft-teams",
+   "type": "skill",
+   "name": "Mensagens no Microsoft Teams",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Envia mensagens para canais do Teams via webhook (cartões adaptativos, menções) ou Graph API, para status de builds e alertas.",
+   "tags": ["teams", "webhook", "alertas"],
+   "icon": "icons/teams.svg",
+   "url": "skills/mensagens-microsoft-teams.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "whatsapp-cloud-api",
+   "type": "skill",
+   "name": "WhatsApp via API oficial (Cloud API)",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Envia templates aprovados e mídia via WhatsApp Cloud API oficial, recebe respostas via webhook — nunca automação não-oficial que pode banir o número.",
+   "tags": ["whatsapp", "api", "mensagens"],
+   "icon": "icons/whatsapp.svg",
+   "url": "skills/whatsapp-cloud-api.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "telegram-discord-bots",
+   "type": "skill",
+   "name": "Telegram e Discord bots",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Cria um bot do Telegram ou Discord, recebe comandos e envia arquivos/mensagens — canal de notificação simples e barato.",
+   "tags": ["telegram", "discord", "bot"],
+   "icon": "icons/telegram.svg",
+   "url": "skills/telegram-discord-bots.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "jira-azuredevops-github-issues",
+   "type": "skill",
+   "name": "Jira / Azure DevOps / GitHub Issues via API",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Cria, atualiza, transiciona e consulta itens no Jira (JQL), Azure DevOps (WIQL) e GitHub Issues, com anexo de evidências.",
+   "tags": ["jira", "azure-devops", "github"],
+   "icon": "icons/jira.svg",
+   "url": "skills/jira-azuredevops-github-issues.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "calendario-agendamentos",
+   "type": "skill",
+   "name": "Calendário e agendamentos (.ics, Graph)",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Gera convites .ics com fuso horário correto e recorrência, e usa Graph API para achar horários livres na agenda do Outlook 365.",
+   "tags": ["calendário", "ics", "agenda"],
+   "icon": "icons/calendar-clock.svg",
+   "url": "skills/calendario-agendamentos.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "sharepoint-onedrive-graph",
+   "type": "skill",
+   "name": "SharePoint e OneDrive via Graph",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Lista, baixa, sobe e versiona documentos e itens de lista do SharePoint/OneDrive via Microsoft Graph API.",
+   "tags": ["sharepoint", "onedrive", "graph"],
+   "icon": "icons/sharepoint.svg",
+   "url": "skills/sharepoint-onedrive-graph.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "slack-web-api",
+   "type": "skill",
+   "name": "Slack (Web API e Block Kit)",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Mensagens formatadas (Block Kit), threads, upload de arquivos e slash commands via Slack Web API.",
+   "tags": ["slack", "api"],
+   "icon": "icons/slack.svg",
+   "url": "skills/slack-web-api.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "trello-notion-clickup",
+   "type": "skill",
+   "name": "Trello / Notion / ClickUp",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Cria quadros/cartões/páginas a partir de um plano e move cartões conforme o progresso, via API do Trello, Notion e ClickUp.",
+   "tags": ["trello", "notion", "clickup"],
+   "icon": "icons/trello.svg",
+   "url": "skills/trello-notion-clickup.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
   }
  ]
 }
