@@ -340,6 +340,90 @@
    "icon": "icons/powerbi.svg",
    "url": "skills/preparar-dados-powerbi.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "automatizar-windows-uiautomation",
+   "type": "skill",
+   "name": "Automatizar programas Windows (UI Automation)",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Localiza janelas e controles pelo nome/tipo via UI Automation (pywinauto) em vez de coordenadas fixas de tela — clicar, digitar, ler grids de qualquer app desktop.",
+   "tags": ["windows", "automação", "uiautomation"],
+   "icon": "icons/mouse-pointer-click.svg",
+   "url": "skills/automatizar-windows-uiautomation.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "automatizar-office-com",
+   "type": "skill",
+   "name": "Automatizar Excel/Outlook/Word via COM",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Abre arquivos, roda macros, lê e envia e-mails e controla o Office já instalado via automação COM (pywin32/PowerShell), com regra de nunca enviar e-mail sem confirmação.",
+   "tags": ["office", "com", "automação"],
+   "icon": "icons/office.svg",
+   "url": "skills/automatizar-office-com.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "chamar-apis-http",
+   "type": "skill",
+   "name": "Chamar APIs HTTP corretamente",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Autenticação (Bearer/Basic/OAuth2/API key), paginação (offset/cursor/Link header), retry com backoff exponencial e idempotência, com exemplos em Python, PowerShell e curl.",
+   "tags": ["api", "http", "integração"],
+   "icon": "icons/webhook.svg",
+   "url": "skills/chamar-apis-http.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "oauth2-login-servicos",
+   "type": "skill",
+   "name": "OAuth2 e login em serviços",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Fluxos authorization code, client credentials e device code, renovação de token e armazenamento seguro no Windows Credential Manager (via keyring).",
+   "tags": ["oauth2", "autenticação", "api"],
+   "icon": "icons/key-round.svg",
+   "url": "skills/oauth2-login-servicos.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "monitorar-paginas-sistemas",
+   "type": "skill",
+   "name": "Monitorar páginas e sistemas",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Checa disponibilidade e tempo de resposta via HTTP, com histórico em SQLite e alerta só na transição de estado (não a cada checagem).",
+   "tags": ["monitoramento", "http", "alertas"],
+   "icon": "icons/radar.svg",
+   "url": "skills/monitorar-paginas-sistemas.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "downloads-uploads-em-massa",
+   "type": "skill",
+   "name": "Downloads e uploads em massa",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Baixa listas de URLs em paralelo controlado com retomada e validação de hash, e envia arquivos em lote para SharePoint/OneDrive/Drive via API.",
+   "tags": ["download", "upload", "automação"],
+   "icon": "icons/cloud-download.svg",
+   "url": "skills/downloads-uploads-em-massa.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "ler-enviar-email",
+   "type": "skill",
+   "name": "Ler e enviar e-mail (IMAP/SMTP/Graph)",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Lê, filtra, baixa anexos e envia e-mail via IMAP/SMTP ou Microsoft Graph, e lida com arquivos .msg/.eml — sempre com confirmação antes de enviar.",
+   "tags": ["email", "imap", "smtp"],
+   "icon": "icons/mail.svg",
+   "url": "skills/ler-enviar-email.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
   }
  ]
 }
