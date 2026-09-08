@@ -1,0 +1,25 @@
+{
+  "titulo": "Progress Code para o time Datasul",
+  "subtitulo": "Agente de codificação Progress 4GL · QualiIT · setembro/2026",
+  "tema": "roxo",
+  "rodape": "QualiIT · Progress Code",
+  "slides": [
+    { "tipo": "secao", "titulo": "Por que um agente para Progress?", "subtitulo": "Contexto e problema" },
+    { "tipo": "topicos", "titulo": "Situação atual", "itens": [
+      "Fontes Datasul espalhados, sem catálogo consultável",
+      "Clone de tela manual leva de 4 a 8 horas",
+      ["Viewers, browsers, queries e includes copiados um a um", "Dicionário (.df) montado à mão"],
+      "Modelos genéricos inventam BOs e campos"
+    ], "notas": "Abrir com o caso do cd0704: quanto tempo levou da última vez." },
+    { "tipo": "duas_colunas", "titulo": "Antes × Depois",
+      "esquerda": { "titulo": "Antes", "itens": ["Copiar 19 fontes na mão", "Renomear e revisar cada arquivo", "Sem render da tela"] },
+      "direita": { "titulo": "Depois", "itens": ["Script clona a árvore inteira", "Campo novo entra em viewer e listas ADM", "Print de cada aba em 1 minuto"] } },
+    { "tipo": "tabela", "titulo": "Modelos escolhidos na bateria", "colunas": ["Papel", "Modelo", "Nota", "Custo 3 tarefas"],
+      "linhas": [["Desenvolvedor sênior", "GLM 5", "8,9", "US$ 0,54"], ["Desenvolvedor", "GPT-5.6 Luna", "8,3", "US$ 0,60"], ["Revisor", "DeepSeek V4 Pro", "7,4", "US$ 1,30"], ["Tarefa crítica", "GPT-5.6 Sol", "9,5", "US$ 5,39"]] },
+    { "tipo": "numeros", "titulo": "Resultados da bateria", "itens": [
+      { "valor": "20", "rotulo": "modelos testados" }, { "valor": "60", "rotulo": "rodadas" }, { "valor": "10×", "rotulo": "mais barato que o top" }
+    ] },
+    { "tipo": "citacao", "texto": "Cada modelo trabalhou sozinho na própria pasta, com o mesmo PROGRESS.md e o mesmo catálogo.", "autor": "Relatório da bateria" },
+    { "tipo": "encerramento", "titulo": "Próximos passos", "itens": ["Instalar o Progress Code no time", "Publicar as skills no marketplace", "Medir tempo de clone nas próximas 3 telas"], "contato": "lucas.oliveira@qualiit.com.br" }
+  ]
+}

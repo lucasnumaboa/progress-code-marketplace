@@ -1,0 +1,83 @@
+{
+ "name": "Progress Code · catálogo QualiIT",
+ "description": "Skills, equipes e servidores MCP para Progress OpenEdge / Datasul",
+ "items": [
+  {
+   "id": "criar-apresentacao-pptx",
+   "type": "skill",
+   "name": "Criar apresentação PowerPoint",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Dá ao modelo o poder de gerar .pptx de verdade: capa, seções, tópicos, duas colunas, tabelas, imagens, citações, números e encerramento, com 5 temas de cores e notas do apresentador. Script Python incluso (instala python-pptx sozinho).",
+   "tags": [
+    "powerpoint",
+    "apresentação",
+    "documentos"
+   ],
+   "icon": "icons/powerpoint.svg",
+   "url": "skills/criar-apresentacao-pptx.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "criacao-clone-tela",
+   "type": "skill",
+   "name": "Clone de tela Datasul",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Clona a árvore inteira de um programa Datasul (viewers, browsers, queries, includes), gera o .df, preserva CP850 e renderiza as abas via AppBuilder-Web. Precisa da chave PROGRESSADMIN_APIKEY.",
+   "tags": [
+    "datasul",
+    "appbuilder",
+    "clone"
+   ],
+   "url": "skills/criacao-clone-tela.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace",
+   "icon": "icons/clone.svg"
+  },
+  {
+   "id": "gerar-changelog",
+   "type": "skill",
+   "name": "Gerar changelog",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Monta ou atualiza o CHANGELOG.md a partir do git log, agrupando em novidades, correções e melhorias, em linguagem de usuário. Skill simples, só instruções.",
+   "tags": [
+    "git",
+    "documentação"
+   ],
+   "icon": "icons/changelog.svg",
+   "url": "skills/gerar-changelog.md",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "equipe-progress-datasul",
+   "type": "team",
+   "name": "Equipe Progress OpenEdge (Datasul)",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Equipe multiagente: orquestrador, revisor, planejador, analista, desenvolvedor, desenvolvedor sênior e QA, com os modelos escolhidos na bateria de setembro/2026. Ajuste os ids de provedor depois de instalar.",
+   "tags": [
+    "multiagente",
+    "datasul"
+   ],
+   "url": "teams/progress-datasul.json",
+   "icon": "icons/team.svg",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "mcp-filesystem-docs",
+   "type": "mcp",
+   "name": "MCP: sistema de arquivos (exemplo)",
+   "version": "1.0.0",
+   "author": "exemplo",
+   "description": "Exemplo de servidor MCP instalável pelo marketplace (server-filesystem apontando para C:/docs). Edite o caminho em Configurações → Servidores MCP.",
+   "tags": [
+    "mcp",
+    "exemplo"
+   ],
+   "url": "mcp/filesystem-docs.json",
+   "icon": "icons/folder.svg",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  }
+ ]
+}
