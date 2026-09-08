@@ -1000,6 +1000,42 @@
    "icon": "icons/shield-check.svg",
    "url": "skills/lgpd-na-pratica.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "escrever-bons-prompts",
+   "type": "skill",
+   "name": "Escrever bons prompts e system prompts",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Estrutura, exemplos few-shot, saída estruturada em JSON, redução de alucinação e como adaptar por tamanho/capacidade do modelo.",
+   "tags": ["prompt-engineering", "ia"],
+   "icon": "icons/sparkles.svg",
+   "url": "skills/escrever-bons-prompts.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "chamar-apis-de-ia",
+   "type": "skill",
+   "name": "Chamar APIs de IA a partir de código",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Formato OpenAI-compatível, streaming, tool calling, cache de prompt e tratamento de rate limit; aponta para a skill claude-api para detalhes da Anthropic.",
+   "tags": ["ia", "api", "llm"],
+   "icon": "icons/bot.svg",
+   "url": "skills/chamar-apis-de-ia.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "construir-agentes-rag",
+   "type": "skill",
+   "name": "Construir agentes e RAG",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Chunking, embeddings, banco vetorial embutido (Chroma, sem servidor separado), recuperação, e quando RAG não é a resposta certa.",
+   "tags": ["rag", "embeddings", "ia"],
+   "icon": "icons/brain-circuit.svg",
+   "url": "skills/construir-agentes-rag.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
   }
  ]
 }
