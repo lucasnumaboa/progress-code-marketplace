@@ -652,6 +652,66 @@
    "icon": "icons/database-backup.svg",
    "url": "skills/backup-restauracao-windows.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "sql-server-na-pratica",
+   "type": "skill",
+   "name": "SQL Server na prática",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "sqlcmd/Invoke-Sqlcmd, plano de execução, bloqueios, backup/restore e jobs do Agent, com os erros mais comuns e a correção de cada um.",
+   "tags": ["sql-server", "banco-de-dados"],
+   "icon": "icons/sqlserver.svg",
+   "url": "skills/sql-server-na-pratica.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "progress-openedge-odbc-jdbc",
+   "type": "skill",
+   "name": "Progress OpenEdge: banco e ODBC/JDBC",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Conecta no banco Progress OpenEdge via ODBC/JDBC de fora do 4GL, consulta o dicionário de dados (_File/_Field), e usa proutil para exportar/importar .d e analisar logs .lg.",
+   "tags": ["progress", "openedge", "odbc"],
+   "icon": "icons/progress-software.svg",
+   "url": "skills/progress-openedge-odbc-jdbc.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "postgresql-mysql",
+   "type": "skill",
+   "name": "PostgreSQL e MySQL",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Conecta, consulta, faz dump/restore, gerencia usuários/índices e lê EXPLAIN via bibliotecas Python, sem depender dos clientes psql/mysql instalados.",
+   "tags": ["postgresql", "mysql", "banco-de-dados"],
+   "icon": "icons/postgresql.svg",
+   "url": "skills/postgresql-mysql.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "migrar-dados-entre-bancos",
+   "type": "skill",
+   "name": "Migrar dados entre bancos",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Mapeamento de tipos, ordem de carga por dependência de FK, lotes, validação de contagem/amostra e plano de rollback.",
+   "tags": ["migração", "banco-de-dados", "etl"],
+   "icon": "icons/arrow-right-left.svg",
+   "url": "skills/migrar-dados-entre-bancos.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "modelagem-normalizacao-dados",
+   "type": "skill",
+   "name": "Modelagem e normalização",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Do requisito ao modelo ER, 1FN/2FN/3FN na prática, quando desnormalizar de propósito, chaves/índices e geração de DDL.",
+   "tags": ["modelagem", "banco-de-dados", "ddl"],
+   "icon": "icons/workflow.svg",
+   "url": "skills/modelagem-normalizacao-dados.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
   }
  ]
 }
