@@ -220,6 +220,126 @@
    "icon": "icons/scissors.svg",
    "url": "skills/remover-fundo-imagem.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "analisar-dados-pandas",
+   "type": "skill",
+   "name": "Analisar dados com pandas",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Carrega, limpa, agrupa e cruza dados CSV/Excel/JSON/SQL com pandas, com as armadilhas de dados brasileiros (encoding, datas dd/mm/aaaa, vírgula decimal).",
+   "tags": ["pandas", "dados", "python"],
+   "icon": "icons/pandas.svg",
+   "url": "skills/analisar-dados-pandas.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "consultar-dados-duckdb",
+   "type": "skill",
+   "name": "Consultar arquivos grandes com DuckDB",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Roda SQL direto sobre CSV/Parquet de gigabytes sem carregar tudo na memória, sem instalar servidor de banco separado.",
+   "tags": ["duckdb", "sql", "dados"],
+   "icon": "icons/duckdb.svg",
+   "url": "skills/consultar-dados-duckdb.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "sqlite-local",
+   "type": "skill",
+   "name": "SQLite como banco local",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Cria e consulta um banco SQLite local (embutido no Python) como cache, catálogo de dados do projeto, ou destino de importação de planilha.",
+   "tags": ["sqlite", "banco-de-dados", "python"],
+   "icon": "icons/sqlite.svg",
+   "url": "skills/sqlite-local.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "transformar-json-yaml-xml",
+   "type": "skill",
+   "name": "Transformar JSON/YAML/XML",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Filtra, reestrutura, valida e converte entre JSON, YAML e XML com bibliotecas Python puras, sem depender de instalar jq/yq/xmllint.",
+   "tags": ["json", "yaml", "xml"],
+   "icon": "icons/json.svg",
+   "url": "skills/transformar-json-yaml-xml.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "regex-multiplataforma",
+   "type": "skill",
+   "name": "Expressões regulares que funcionam",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Padrões prontos para CPF/CNPJ/CEP/datas/valores brasileiros e as diferenças de sintaxe entre engines (.NET, JavaScript, Python, Progress 4GL).",
+   "tags": ["regex", "validação"],
+   "icon": "icons/regex.svg",
+   "url": "skills/regex-multiplataforma.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "limpeza-deduplicacao-cadastros",
+   "type": "skill",
+   "name": "Limpeza e deduplicação de cadastros",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Normaliza nomes, endereços e telefones brasileiros e encontra registros parecidos (fuzzy matching), gerando relatório de conflitos para revisão humana.",
+   "tags": ["deduplicação", "dados", "cadastro"],
+   "icon": "icons/users.svg",
+   "url": "skills/limpeza-deduplicacao-cadastros.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "estatistica-descritiva-anomalias",
+   "type": "skill",
+   "name": "Estatística descritiva e detecção de anomalias",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Calcula média, mediana, desvio, percentis e detecta outliers (IQR, z-score) e sazonalidade, com critério para decidir se um número estranho é anomalia real ou erro de dado.",
+   "tags": ["estatística", "anomalias", "dados"],
+   "icon": "icons/activity.svg",
+   "url": "skills/estatistica-descritiva-anomalias.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "web-scraping-estruturado",
+   "type": "skill",
+   "name": "Web scraping estruturado",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Extrai dados de páginas web com requests + BeautifulSoup: paginação, tabelas HTML, respeito a robots.txt, cache e limites de requisição.",
+   "tags": ["web-scraping", "python"],
+   "icon": "icons/globe.svg",
+   "url": "skills/web-scraping-estruturado.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "etl-agendado-windows",
+   "type": "skill",
+   "name": "ETL agendado (Windows)",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Pipeline extrair → transformar → carregar com log, reprocessamento idempotente e alerta de falha, agendado no Agendador de Tarefas do Windows.",
+   "tags": ["etl", "automação", "windows"],
+   "icon": "icons/windows.svg",
+   "url": "skills/etl-agendado-windows.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "preparar-dados-powerbi",
+   "type": "skill",
+   "name": "Preparar dados para Power BI / tabela dinâmica",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Formato de tabela longa, modelo fato/dimensão e medidas DAX básicas para Power BI, e quando usar tabela dinâmica do Excel em vez disso.",
+   "tags": ["power-bi", "excel", "dados"],
+   "icon": "icons/powerbi.svg",
+   "url": "skills/preparar-dados-powerbi.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
   }
  ]
 }
