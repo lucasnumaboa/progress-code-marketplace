@@ -928,6 +928,78 @@
    "icon": "icons/shield-alert.svg",
    "url": "skills/analise-seguranca-dependencias.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "nfe-nfse-cte-xml",
+   "type": "skill",
+   "name": "NF-e, NFS-e e CT-e: XML e eventos",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Estrutura do XML, validação por schema, consulta de status na SEFAZ (Web Service SOAP), geração de DANFE em PDF e chave de acesso.",
+   "tags": ["nfe", "cte", "fiscal"],
+   "icon": "icons/receipt.svg",
+   "url": "skills/nfe-nfse-cte-xml.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "validar-cpf-cnpj-cep",
+   "type": "skill",
+   "name": "Validar e consultar CPF/CNPJ/CEP",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Algoritmo real de dígito verificador (não regex) para CPF/CNPJ, e consulta de CEP/dados de empresa via APIs públicas gratuitas com fallback.",
+   "tags": ["cpf", "cnpj", "cep"],
+   "icon": "icons/id-card.svg",
+   "url": "skills/validar-cpf-cnpj-cep.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "boletos-pix",
+   "type": "skill",
+   "name": "Boletos e PIX",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Código de barras de boleto (FEBRABAN, Módulo 11), quando usar registro via API do banco, e onde está o gerador de QR PIX.",
+   "tags": ["boleto", "pix", "febraban"],
+   "icon": "icons/barcode.svg",
+   "url": "skills/boletos-pix.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "cambio-indices-feriados",
+   "type": "skill",
+   "name": "Câmbio, índices e feriados",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "APIs do BACEN (PTAX, SELIC, IPCA) e cálculo de dias úteis com feriados nacionais/bancários via workalendar.",
+   "tags": ["bacen", "câmbio", "feriados"],
+   "icon": "icons/trending-up.svg",
+   "url": "skills/cambio-indices-feriados.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "extratos-bancarios-ofx-cnab",
+   "type": "skill",
+   "name": "Leitura de extratos OFX e CNAB",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Lê extrato OFX e retorno CNAB 240/400 e concilia automaticamente com contas a receber/pagar, separando conciliado/não encontrado/divergente.",
+   "tags": ["ofx", "cnab", "conciliação"],
+   "icon": "icons/landmark.svg",
+   "url": "skills/extratos-bancarios-ofx-cnab.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "lgpd-na-pratica",
+   "type": "skill",
+   "name": "LGPD na prática",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Identifica dado pessoal, aplica anonimização de verdade (não só mascaramento), log de acesso, prazo de retenção e RIPD simplificado.",
+   "tags": ["lgpd", "privacidade", "compliance"],
+   "icon": "icons/shield-check.svg",
+   "url": "skills/lgpd-na-pratica.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
   }
  ]
 }
