@@ -868,6 +868,66 @@
    "icon": "icons/terraform.svg",
    "url": "skills/infra-como-codigo-terraform.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "gerenciar-segredos-windows",
+   "type": "skill",
+   "name": "Gerenciar segredos com segurança",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Credential Manager do Windows (via keyring), variáveis de ambiente, .env fora do Git, rotação e detecção de vazamento no histórico do Git.",
+   "tags": ["segredos", "segurança", "credenciais"],
+   "icon": "icons/lock-keyhole.svg",
+   "url": "skills/gerenciar-segredos-windows.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "criptografia-aplicada",
+   "type": "skill",
+   "name": "Criptografia aplicada",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Hash de senha correto (bcrypt/argon2, nunca SHA/MD5 puro), AES para arquivos e TLS, sem precisar do OpenSSL instalado separadamente.",
+   "tags": ["criptografia", "segurança", "hash"],
+   "icon": "icons/shield.svg",
+   "url": "skills/criptografia-aplicada.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "certificados-digitais-assinatura",
+   "type": "skill",
+   "name": "Certificados digitais e assinatura",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "PFX/PEM, verificação de validade e cadeia, assinatura de PDF e XML (NF-e), sem precisar do openssl.exe instalado.",
+   "tags": ["certificado-digital", "assinatura", "nfe"],
+   "icon": "icons/file-signature.svg",
+   "url": "skills/certificados-digitais-assinatura.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "autenticacao-autorizacao-apps",
+   "type": "skill",
+   "name": "Autenticação e autorização em apps",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "JWT (com validação de algoritmo), sessões, RBAC, MFA (TOTP) e SSO com Azure AD/Entra ID, com os erros clássicos a evitar.",
+   "tags": ["autenticação", "jwt", "rbac"],
+   "icon": "icons/fingerprint.svg",
+   "url": "skills/autenticacao-autorizacao-apps.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "analise-seguranca-dependencias",
+   "type": "skill",
+   "name": "Análise de segurança de código e dependências",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "OWASP Top 10 aplicado na revisão, scanners gratuitos (pip-audit, npm audit, Semgrep) e política de atualização de dependências vulneráveis.",
+   "tags": ["segurança", "owasp", "sast"],
+   "icon": "icons/shield-alert.svg",
+   "url": "skills/analise-seguranca-dependencias.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
   }
  ]
 }
