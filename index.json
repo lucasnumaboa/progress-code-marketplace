@@ -47,6 +47,23 @@
    "url": "mcp/filesystem-docs.json",
    "icon": "icons/folder.svg",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "formulas-excel",
+   "type": "skill",
+   "name": "Fórmulas de Excel (dinâmico por versão)",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Abre o Excel de verdade por automação COM e cria/corrige fórmulas testando ao vivo se cada função existe naquela instalação (2007 até 365), independente do idioma da interface. Inclui tabela de equivalentes clássicos, tradução PT-BR/inglês de funções e guia de erros (#REF!, #NAME?, #SPILL!...).",
+   "tags": [
+    "excel",
+    "planilha",
+    "fórmulas",
+    "automação"
+   ],
+   "icon": "📊",
+   "url": "skills/formulas-excel.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
   }
  ]
 }
