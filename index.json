@@ -520,6 +520,138 @@
    "icon": "icons/trello.svg",
    "url": "skills/trello-notion-clickup.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "powershell-moderno",
+   "type": "skill",
+   "name": "PowerShell moderno de verdade",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Pipeline de objetos, try/catch com $ErrorActionPreference, remoting, equivalências com Unix e as armadilhas do 5.1 vs 7.",
+   "tags": ["powershell", "windows"],
+   "icon": "icons/powershell.svg",
+   "url": "skills/powershell-moderno.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "instalar-software-ambientes",
+   "type": "skill",
+   "name": "Instalar software e ambientes",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "winget, versões lado a lado (pyenv-win, nvm-windows), PATH por usuário vs. máquina, verificação pós-instalação.",
+   "tags": ["winget", "windows", "ambientes"],
+   "icon": "icons/package.svg",
+   "url": "skills/instalar-software-ambientes.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "servicos-tarefas-agendadas-windows",
+   "type": "skill",
+   "name": "Serviços, tarefas agendadas e inicialização",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Cria serviço e tarefa agendada com gatilhos/credenciais/reinício automático, e diagnostica falhas, sem instalar NSSM.",
+   "tags": ["windows", "agendador", "serviços"],
+   "icon": "icons/timer.svg",
+   "url": "skills/servicos-tarefas-agendadas-windows.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "registro-windows-politicas",
+   "type": "skill",
+   "name": "Registro do Windows e políticas",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Lê/grava chaves do registro com backup antes, autostart, associação de arquivo, proxy e política de grupo local.",
+   "tags": ["windows", "registro"],
+   "icon": "icons/list-tree.svg",
+   "url": "skills/registro-windows-politicas.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "redes-diagnostico-windows",
+   "type": "skill",
+   "name": "Redes: diagnóstico por camada",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Ping, DNS, porta, rota e proxy em ordem — separa problema de rede de problema de aplicação, com tabela de interpretação de sintomas.",
+   "tags": ["redes", "diagnóstico", "windows"],
+   "icon": "icons/network.svg",
+   "url": "skills/redes-diagnostico-windows.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "compartilhamentos-permissoes-ntfs",
+   "type": "skill",
+   "name": "Compartilhamentos, permissões NTFS e mapeamentos",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "icacls, herança, net use, auditoria de quem tem acesso a quê e como corrigir excesso de permissão com segurança.",
+   "tags": ["ntfs", "permissões", "windows"],
+   "icon": "icons/folder-lock.svg",
+   "url": "skills/compartilhamentos-permissoes-ntfs.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "impressoras-etiquetas",
+   "type": "skill",
+   "name": "Impressoras e etiquetas (ZPL)",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Instala/define impressora, imprime PDF por linha de comando e gera etiquetas ZPL para Zebra, sem programa externo.",
+   "tags": ["impressora", "zpl", "etiquetas"],
+   "icon": "icons/printer.svg",
+   "url": "skills/impressoras-etiquetas.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "monitoramento-maquina-windows",
+   "type": "skill",
+   "name": "Monitoramento de máquina",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "CPU/memória/disco/processos com contadores de desempenho e inventário de hardware via CIM, sem instalar agente externo.",
+   "tags": ["monitoramento", "windows", "desempenho"],
+   "icon": "icons/cpu.svg",
+   "url": "skills/monitoramento-maquina-windows.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "logs-windows-event-log",
+   "type": "skill",
+   "name": "Logs do Windows (Event Log)",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Filtra por origem/ID/período com Get-WinEvent, correlaciona falhas de aplicação e exporta evidência para chamados.",
+   "tags": ["event-log", "windows", "diagnóstico"],
+   "icon": "icons/scroll-text.svg",
+   "url": "skills/logs-windows-event-log.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "ssh-sftp-linux-windows",
+   "type": "skill",
+   "name": "SSH, SFTP e Linux a partir do Windows",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Cliente OpenSSH nativo do Windows: chaves, config, túneis, scp/sftp em lote — e quando de fato vale a pena instalar o WSL.",
+   "tags": ["ssh", "sftp", "windows"],
+   "icon": "icons/terminal.svg",
+   "url": "skills/ssh-sftp-linux-windows.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "backup-restauracao-windows",
+   "type": "skill",
+   "name": "Backup e restauração",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "robocopy espelho e versionado por data, backup nativo de banco de dados, retenção, e por que testar a restauração é o passo que importa.",
+   "tags": ["backup", "robocopy", "windows"],
+   "icon": "icons/database-backup.svg",
+   "url": "skills/backup-restauracao-windows.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
   }
  ]
 }
