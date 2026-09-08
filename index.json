@@ -712,6 +712,114 @@
    "icon": "icons/workflow.svg",
    "url": "skills/modelagem-normalizacao-dados.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "dotnet-csharp-moderno",
+   "type": "skill",
+   "name": ".NET / C# moderno",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "dotnet CLI, NuGet, async/await sem deadlock, Entity Framework Core, minimal APIs e como ler exceptions/stack traces .NET.",
+   "tags": ["dotnet", "csharp"],
+   "icon": "icons/dotnet.svg",
+   "url": "skills/dotnet-csharp-moderno.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "python-ambientes-empacotamento",
+   "type": "skill",
+   "name": "Python: ambientes e empacotamento",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "venv/uv, requirements.txt vs. pyproject.toml, e gerar .exe standalone com PyInstaller para rodar sem Python instalado.",
+   "tags": ["python", "empacotamento"],
+   "icon": "icons/python.svg",
+   "url": "skills/python-ambientes-empacotamento.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "nodejs-typescript",
+   "type": "skill",
+   "name": "Node.js e TypeScript",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "npm/pnpm, ESM vs. CommonJS, tsconfig, empacotar CLI e depurar com --inspect.",
+   "tags": ["nodejs", "typescript"],
+   "icon": "icons/nodejs.svg",
+   "url": "skills/nodejs-typescript.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "electron-desktop-apps",
+   "type": "skill",
+   "name": "Electron (apps desktop)",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Processo principal vs. renderer, IPC seguro via preload/contextIsolation, empacotar com electron-builder, auto-update e assinatura.",
+   "tags": ["electron", "desktop"],
+   "icon": "icons/electron.svg",
+   "url": "skills/electron-desktop-apps.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "java-spring-boot",
+   "type": "skill",
+   "name": "Java e Spring Boot",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Maven/Gradle, perfis de ambiente, Actuator, logs estruturados e empacotamento como jar rodando como serviço.",
+   "tags": ["java", "spring-boot"],
+   "icon": "icons/springboot.svg",
+   "url": "skills/java-spring-boot.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "apis-rest-bem-desenhadas",
+   "type": "skill",
+   "name": "APIs REST bem desenhadas",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Versionamento, status codes corretos, paginação, formato de erro padronizado e geração de cliente a partir de OpenAPI.",
+   "tags": ["rest", "api", "design"],
+   "icon": "icons/route.svg",
+   "url": "skills/apis-rest-bem-desenhadas.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "graphql-grpc",
+   "type": "skill",
+   "name": "GraphQL e gRPC",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Quando usar GraphQL/gRPC em vez de REST, schemas básicos, o problema de N+1 em resolvers, e geração de código a partir de .proto.",
+   "tags": ["graphql", "grpc", "api"],
+   "icon": "icons/graphql.svg",
+   "url": "skills/graphql-grpc.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "testes-automatizados-por-stack",
+   "type": "skill",
+   "name": "Testes automatizados por stack",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "pytest, Jest/Vitest, xUnit, JUnit: fixtures, mocks, cobertura e page objects, com nota sobre teste de integração com banco em container.",
+   "tags": ["testes", "pytest", "jest"],
+   "icon": "icons/flask-conical.svg",
+   "url": "skills/testes-automatizados-por-stack.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "concorrencia-filas",
+   "type": "skill",
+   "name": "Programação concorrente e filas",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Threads vs. async, integração com RabbitMQ/Redis/Service Bus, idempotência, retries e dead-letter (assumindo broker já provisionado).",
+   "tags": ["concorrência", "filas", "rabbitmq"],
+   "icon": "icons/list-ordered.svg",
+   "url": "skills/concorrencia-filas.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
   }
  ]
 }
