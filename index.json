@@ -1036,6 +1036,54 @@
    "icon": "icons/brain-circuit.svg",
    "url": "skills/construir-agentes-rag.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "cortar-converter-legendar-video",
+   "type": "skill",
+   "name": "Cortar, converter e legendar vídeo",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Corta por tempo, concatena, extrai áudio, comprime para WhatsApp, gera GIF e queima legenda SRT — ffmpeg portátil já empacotado, sem instalar nada.",
+   "tags": ["ffmpeg", "vídeo", "portátil"],
+   "icon": "icons/ffmpeg.svg",
+   "url": "skills/cortar-converter-legendar-video.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "diagramas-tecnicos-graphviz-plantuml",
+   "type": "skill",
+   "name": "Diagramas técnicos (Graphviz + PlantUML)",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Gera fluxos, grafos, ER e arquitetura (Graphviz) e sequência/classes/casos de uso (PlantUML) como PNG/SVG — binários já empacotados, sem instalar nada (PlantUML precisa só do Java já presente).",
+   "tags": ["graphviz", "plantuml", "diagramas", "portátil"],
+   "icon": "icons/git-fork.svg",
+   "url": "skills/diagramas-tecnicos-graphviz-plantuml.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "certificados-https-nginx-winacme",
+   "type": "skill",
+   "name": "HTTPS com Nginx + win-acme",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Reverse proxy com Nginx e emissão/renovação automática de certificado Let's Encrypt com win-acme — ambos portáteis já empacotados, sem instalar nada.",
+   "tags": ["nginx", "https", "lets-encrypt", "portátil"],
+   "icon": "icons/nginx.svg",
+   "url": "skills/certificados-https-nginx-winacme.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "ocr-imagens-pdf-tesseract",
+   "type": "skill",
+   "name": "OCR de imagens e PDFs (Tesseract)",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Extrai texto de imagens e PDFs escaneados com Tesseract, com pré-processamento de imagem e OCR por região — instalador e idioma português já empacotados.",
+   "tags": ["ocr", "tesseract", "português"],
+   "icon": "icons/scan-text.svg",
+   "url": "skills/ocr-imagens-pdf-tesseract.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
   }
  ]
 }
