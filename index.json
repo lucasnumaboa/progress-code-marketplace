@@ -3,6 +3,79 @@
  "description": "Skills, equipes e servidores MCP para Progress OpenEdge / Datasul",
  "items": [
   {
+   "id": "conversor-telas-datasul-poui",
+   "type": "skill",
+   "name": "Conversor de Telas Datasul para PO-UI",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Converte telas legadas Datasul (.w, ChUI caracter ou GUI) para aplicações web modernas em Angular 17 + PO-UI 17 prontas para o Tomcat/PASOE. Inclui scaffold zipado completo com build de .war automatizado.",
+   "tags": [
+    "datasul",
+    "po-ui",
+    "angular",
+    "progress",
+    "modernizacao"
+   ],
+   "icon": "icons/progress-software.svg",
+   "url": "skills/conversor-telas-datasul-poui.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "extrator-regras-datasul-epc-upc",
+   "type": "skill",
+   "name": "Extrator de Regras de Negócio EPC/UPC",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Escaneia fontes do Datasul (.p, .w, .i), identifica automaticamente chamadas de UPC e EPC, mapeia eventos e temp-tables de parâmetros, gerando catálogo de pontos de entrada e esqueletos upc_*.p prontos.",
+   "tags": [
+    "datasul",
+    "upc",
+    "epc",
+    "progress",
+    "regras-de-negocio"
+   ],
+   "icon": "icons/file-signature.svg",
+   "url": "skills/extrator-regras-datasul-epc-upc.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "rastreador-includes-progress-abl",
+   "type": "skill",
+   "name": "Rastreador de Includes Progress ABL",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Rastreia e mapeia recursivamente a árvore completa de includes ({include.i}) com resolução PROPATH, parâmetros passados, detecção de loops circulares e exportação em árvore textual e diagramas Mermaid.",
+   "tags": [
+    "progress",
+    "abl",
+    "includes",
+    "dependencias",
+    "mermaid"
+   ],
+   "icon": "icons/list-tree.svg",
+   "url": "skills/rastreador-includes-progress-abl.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "exportador-documentacao-projeto",
+   "type": "skill",
+   "name": "Exportador de Documentação Completa",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Gera documentação técnica e funcional completa de projetos Progress OpenEdge e Datasul em Markdown estruturado, HTML interativo com busca ao vivo e layout pronto para impressão em PDF.",
+   "tags": [
+    "documentacao",
+    "markdown",
+    "html",
+    "pdf",
+    "datasul",
+    "progress"
+   ],
+   "icon": "icons/scroll-text.svg",
+   "url": "skills/exportador-documentacao-projeto.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
    "id": "criar-apresentacao-pptx",
    "type": "skill",
    "name": "Criar apresentação PowerPoint",
