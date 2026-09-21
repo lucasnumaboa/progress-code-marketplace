@@ -21,6 +21,25 @@
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
   },
   {
+   "id": "armadilhas-telas-w-progress",
+   "type": "skill",
+   "name": "Armadilhas de Telas .w (UIB/ADM)",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Erros de runtime que o compilador não acusa ao alterar telas Progress geradas pelo UIB/AppBuilder com o framework ADM: campo fora do ENABLE que não aceita digitação, variável local que sombreia o widget da tela, ordem do local-initialize, TODAY espalhado pelo fonte, reset que apaga a data digitada e programa irmão com a lógica duplicada.",
+   "tags": [
+    "progress",
+    "abl",
+    "datasul",
+    "uib",
+    "adm",
+    "telas"
+   ],
+   "icon": "icons/monitor.svg",
+   "url": "skills/armadilhas-telas-w-progress.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
    "id": "extrator-regras-datasul-epc-upc",
    "type": "skill",
    "name": "Extrator de Regras de Negócio EPC/UPC",
