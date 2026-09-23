@@ -24,7 +24,7 @@
    "id": "videodoc",
    "type": "skill",
    "name": "VideoDoc \u2014 documenta\u00e7\u00e3o a partir de v\u00eddeos",
-   "version": "1.0.1",
+   "version": "1.0.2",
    "author": "QualiIT",
    "description": "Aponte uma pasta com v\u00eddeos de demonstra\u00e7\u00e3o e pe\u00e7a \"faz um documento sobre esse processo\": transcreve a fala com o modelo de voz cadastrado, acha os momentos em que a pessoa fala de uma tela, escolhe o quadro, detecta a janela, mostra uma pr\u00e9via do recorte antes de gravar e gera DOCX e/ou PDF com passo a passo, imagens das telas, falas e d\u00favidas. ffmpeg inclu\u00eddo (pacote de 62 MB). Requer Progress Code 0.16.4+, Python 3 e um modelo que enxergue imagens (ou um modelo de Vis\u00e3o configurado).",
    "tags": [
@@ -37,7 +37,7 @@
     "processo"
    ],
    "icon": "icons/clapperboard.svg",
-   "url": "https://github.com/lucasnumaboa/progress-code-marketplace/releases/download/skill-videodoc-1.0.1/videodoc.zip",
+   "url": "https://github.com/lucasnumaboa/progress-code-marketplace/releases/download/skill-videodoc-1.0.2/videodoc.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
   },
   {
