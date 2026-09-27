@@ -23,10 +23,10 @@
   {
    "id": "xref-indices",
    "type": "skill",
-   "name": "Checagem de \u00edndice (XREF)",
+   "name": "Checagem de índice (XREF)",
    "version": "1.0.0",
    "author": "QualiIT",
-   "description": "Compila fontes Progress/ABL com XREF (sem gravar .r) e aponta cada FOR EACH/FIND que varre a tabela inteira (WHOLE-INDEX): arquivo e linha (inclusive dentro de include), \u00edndice usado, campos do WHERE, c\u00f3digo e os \u00edndices da tabela para propor o WHERE certo. Gera relat\u00f3rio .md. Requer OpenEdge instalado e o .pf com os bancos do cliente.",
+   "description": "Compila fontes Progress/ABL com XREF (sem gravar .r) e aponta cada FOR EACH/FIND que varre a tabela inteira (WHOLE-INDEX): arquivo e linha (inclusive dentro de include), índice usado, campos do WHERE, código e os índices da tabela para propor o WHERE certo. Gera relatório .md. Requer OpenEdge instalado e o .pf com os bancos do cliente.",
    "tags": [
     "progress",
     "abl",
@@ -43,10 +43,10 @@
   {
    "id": "videodoc",
    "type": "skill",
-   "name": "VideoDoc \u2014 documenta\u00e7\u00e3o a partir de v\u00eddeos",
+   "name": "VideoDoc — documentação a partir de vídeos",
    "version": "1.0.2",
    "author": "QualiIT",
-   "description": "Aponte uma pasta com v\u00eddeos de demonstra\u00e7\u00e3o e pe\u00e7a \"faz um documento sobre esse processo\": transcreve a fala com o modelo de voz cadastrado, acha os momentos em que a pessoa fala de uma tela, escolhe o quadro, detecta a janela, mostra uma pr\u00e9via do recorte antes de gravar e gera DOCX e/ou PDF com passo a passo, imagens das telas, falas e d\u00favidas. ffmpeg inclu\u00eddo (pacote de 62 MB). Requer Progress Code 0.16.4+, Python 3 e um modelo que enxergue imagens (ou um modelo de Vis\u00e3o configurado).",
+   "description": "Aponte uma pasta com vídeos de demonstração e peça \"faz um documento sobre esse processo\": transcreve a fala com o modelo de voz cadastrado, acha os momentos em que a pessoa fala de uma tela, escolhe o quadro, detecta a janela, mostra uma prévia do recorte antes de gravar e gera DOCX e/ou PDF com passo a passo, imagens das telas, falas e dúvidas. ffmpeg incluído (pacote de 62 MB). Requer Progress Code 0.16.4+, Python 3 e um modelo que enxergue imagens (ou um modelo de Visão configurado).",
    "tags": [
     "documentacao",
     "video",
@@ -63,10 +63,10 @@
   {
    "id": "doctome",
    "type": "skill",
-   "name": "DocToMe \u2014 documenta\u00e7\u00e3o da altera\u00e7\u00e3o",
+   "name": "DocToMe — documentação da alteração",
    "version": "1.0.0",
    "author": "QualiIT",
-   "description": "Quando voc\u00ea pedir \"cria uma documenta\u00e7\u00e3o\", compara os originais que o Progress Code guardou antes de cada altera\u00e7\u00e3o com o projeto atual e gera tr\u00eas arquivos: PDF t\u00e9cnico (o que foi feito, por que, trechos antes/depois, impacto, testes e diff completo em anexo), Markdown edit\u00e1vel e apresenta\u00e7\u00e3o PPTX. Programas prontos inclu\u00eddos: o modelo n\u00e3o escreve c\u00f3digo.",
+   "description": "Quando você pedir \"cria uma documentação\", compara os originais que o Progress Code guardou antes de cada alteração com o projeto atual e gera três arquivos: PDF técnico (o que foi feito, por que, trechos antes/depois, impacto, testes e diff completo em anexo), Markdown editável e apresentação PPTX. Programas prontos incluídos: o modelo não escreve código.",
    "tags": [
     "documentacao",
     "pdf",
@@ -223,7 +223,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Gera documentos Word do zero ou edita um existente sem perder formatação (python-docx), com preenchimento de modelos por marcadores {{campo}} e conversão para PDF via Word.",
-   "tags": ["word", "docx", "documentos"],
+   "tags": [
+    "word",
+    "docx",
+    "documentos"
+   ],
    "icon": "icons/word.svg",
    "url": "skills/criar-editar-docx.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -235,7 +239,12 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Lê e escreve planilhas .xlsx com openpyxl — fórmulas como texto, formatação condicional, gráficos, painéis congelados e validação de dados — sem precisar do Excel instalado.",
-   "tags": ["excel", "xlsx", "openpyxl", "planilha"],
+   "tags": [
+    "excel",
+    "xlsx",
+    "openpyxl",
+    "planilha"
+   ],
    "icon": "icons/excel.svg",
    "url": "skills/ler-escrever-xlsx.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -247,7 +256,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Converte HTML ou Markdown em PDF usando o Edge headless já instalado no Windows, com CSS de impressão e quebras de página — sem instalar nenhum programa novo.",
-   "tags": ["pdf", "html", "markdown"],
+   "tags": [
+    "pdf",
+    "html",
+    "markdown"
+   ],
    "icon": "icons/pdf.svg",
    "url": "skills/gerar-pdf-html.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -259,7 +272,10 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Junta, divide, gira, extrai texto/tabelas, aplica marca d'água e preenche formulários de PDF com pypdf/pdfplumber, só bibliotecas Python.",
-   "tags": ["pdf", "python"],
+   "tags": [
+    "pdf",
+    "python"
+   ],
    "icon": "icons/pdf.svg",
    "url": "skills/manipular-pdf.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -271,7 +287,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Gera dezenas/centenas de documentos Word a partir de um modelo com marcadores e uma planilha de dados, com regra de nome de arquivo, tratamento de erro por linha e conversão em lote para PDF.",
-   "tags": ["word", "mala-direta", "automação"],
+   "tags": [
+    "word",
+    "mala-direta",
+    "automação"
+   ],
    "icon": "icons/files.svg",
    "url": "skills/mala-direta-documentos.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -283,7 +303,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Lê e escreve em planilhas Google Sheets via API oficial com conta de serviço, incluindo escrita de fórmulas (USER_ENTERED), batchUpdate e retry de cota.",
-   "tags": ["google-sheets", "api", "planilha"],
+   "tags": [
+    "google-sheets",
+    "api",
+    "planilha"
+   ],
    "icon": "icons/googlesheets.svg",
    "url": "skills/google-sheets-api.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -295,7 +319,10 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Tabelas, admonitions por plataforma, diagramas Mermaid e sumário automático (script incluso, sem dependências) — e quando de fato precisa do Pandoc para converter para DOCX/PDF/HTML.",
-   "tags": ["markdown", "documentação"],
+   "tags": [
+    "markdown",
+    "documentação"
+   ],
    "icon": "icons/markdown.svg",
    "url": "skills/markdown-avancado.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -307,7 +334,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Redimensiona, recorta, converte, comprime, monta colagens e adiciona texto/marca d'água em imagens com Pillow, sem instalar programa externo (ImageMagick).",
-   "tags": ["imagem", "pillow", "python"],
+   "tags": [
+    "imagem",
+    "pillow",
+    "python"
+   ],
    "icon": "icons/image.svg",
    "url": "skills/manipular-imagens-pillow.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -319,7 +350,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Captura a tela inteira, um monitor específico ou uma janela por título no Windows, usando só PowerShell + .NET, para alimentar a leitura de imagem.",
-   "tags": ["windows", "captura-de-tela", "powershell"],
+   "tags": [
+    "windows",
+    "captura-de-tela",
+    "powershell"
+   ],
    "icon": "icons/monitor.svg",
    "url": "skills/capturar-tela-janelas.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -331,7 +366,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Gera QR Code (com logo), código de barras EAN-13/Code128 e QR PIX estático (payload EMV com CRC16), prontos para impressão em etiquetas.",
-   "tags": ["qrcode", "codigo-de-barras", "pix"],
+   "tags": [
+    "qrcode",
+    "codigo-de-barras",
+    "pix"
+   ],
    "icon": "icons/qr-code.svg",
    "url": "skills/gerar-qrcode-codigo-barras.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -343,7 +382,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Gera áudio a partir de texto com as vozes do Windows (SAPI, offline) ou vozes neurais via edge-tts, com SSML para pausas e ênfase.",
-   "tags": ["tts", "audio", "voz"],
+   "tags": [
+    "tts",
+    "audio",
+    "voz"
+   ],
    "icon": "icons/volume-2.svg",
    "url": "skills/texto-para-voz.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -355,7 +398,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Gera gráficos de barra, linha, pizza e Gantt como PNG/SVG com tema visual consistente, para embutir em relatórios e documentos.",
-   "tags": ["gráficos", "matplotlib", "python"],
+   "tags": [
+    "gráficos",
+    "matplotlib",
+    "python"
+   ],
    "icon": "icons/bar-chart-3.svg",
    "url": "skills/gerar-graficos-matplotlib.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -367,7 +414,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Remove o fundo de uma imagem (rembg) e otimiza para web (WebP/AVIF, sprites), sem instalar programa externo.",
-   "tags": ["imagem", "rembg", "web"],
+   "tags": [
+    "imagem",
+    "rembg",
+    "web"
+   ],
    "icon": "icons/scissors.svg",
    "url": "skills/remover-fundo-imagem.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -379,7 +430,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Carrega, limpa, agrupa e cruza dados CSV/Excel/JSON/SQL com pandas, com as armadilhas de dados brasileiros (encoding, datas dd/mm/aaaa, vírgula decimal).",
-   "tags": ["pandas", "dados", "python"],
+   "tags": [
+    "pandas",
+    "dados",
+    "python"
+   ],
    "icon": "icons/pandas.svg",
    "url": "skills/analisar-dados-pandas.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -391,7 +446,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Roda SQL direto sobre CSV/Parquet de gigabytes sem carregar tudo na memória, sem instalar servidor de banco separado.",
-   "tags": ["duckdb", "sql", "dados"],
+   "tags": [
+    "duckdb",
+    "sql",
+    "dados"
+   ],
    "icon": "icons/duckdb.svg",
    "url": "skills/consultar-dados-duckdb.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -403,7 +462,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Cria e consulta um banco SQLite local (embutido no Python) como cache, catálogo de dados do projeto, ou destino de importação de planilha.",
-   "tags": ["sqlite", "banco-de-dados", "python"],
+   "tags": [
+    "sqlite",
+    "banco-de-dados",
+    "python"
+   ],
    "icon": "icons/sqlite.svg",
    "url": "skills/sqlite-local.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -415,7 +478,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Filtra, reestrutura, valida e converte entre JSON, YAML e XML com bibliotecas Python puras, sem depender de instalar jq/yq/xmllint.",
-   "tags": ["json", "yaml", "xml"],
+   "tags": [
+    "json",
+    "yaml",
+    "xml"
+   ],
    "icon": "icons/json.svg",
    "url": "skills/transformar-json-yaml-xml.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -427,7 +494,10 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Padrões prontos para CPF/CNPJ/CEP/datas/valores brasileiros e as diferenças de sintaxe entre engines (.NET, JavaScript, Python, Progress 4GL).",
-   "tags": ["regex", "validação"],
+   "tags": [
+    "regex",
+    "validação"
+   ],
    "icon": "icons/regex.svg",
    "url": "skills/regex-multiplataforma.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -439,7 +509,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Normaliza nomes, endereços e telefones brasileiros e encontra registros parecidos (fuzzy matching), gerando relatório de conflitos para revisão humana.",
-   "tags": ["deduplicação", "dados", "cadastro"],
+   "tags": [
+    "deduplicação",
+    "dados",
+    "cadastro"
+   ],
    "icon": "icons/users.svg",
    "url": "skills/limpeza-deduplicacao-cadastros.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -451,7 +525,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Calcula média, mediana, desvio, percentis e detecta outliers (IQR, z-score) e sazonalidade, com critério para decidir se um número estranho é anomalia real ou erro de dado.",
-   "tags": ["estatística", "anomalias", "dados"],
+   "tags": [
+    "estatística",
+    "anomalias",
+    "dados"
+   ],
    "icon": "icons/activity.svg",
    "url": "skills/estatistica-descritiva-anomalias.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -463,7 +541,10 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Extrai dados de páginas web com requests + BeautifulSoup: paginação, tabelas HTML, respeito a robots.txt, cache e limites de requisição.",
-   "tags": ["web-scraping", "python"],
+   "tags": [
+    "web-scraping",
+    "python"
+   ],
    "icon": "icons/globe.svg",
    "url": "skills/web-scraping-estruturado.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -475,7 +556,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Pipeline extrair → transformar → carregar com log, reprocessamento idempotente e alerta de falha, agendado no Agendador de Tarefas do Windows.",
-   "tags": ["etl", "automação", "windows"],
+   "tags": [
+    "etl",
+    "automação",
+    "windows"
+   ],
    "icon": "icons/windows.svg",
    "url": "skills/etl-agendado-windows.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -487,7 +572,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Formato de tabela longa, modelo fato/dimensão e medidas DAX básicas para Power BI, e quando usar tabela dinâmica do Excel em vez disso.",
-   "tags": ["power-bi", "excel", "dados"],
+   "tags": [
+    "power-bi",
+    "excel",
+    "dados"
+   ],
    "icon": "icons/powerbi.svg",
    "url": "skills/preparar-dados-powerbi.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -499,7 +588,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Localiza janelas e controles pelo nome/tipo via UI Automation (pywinauto) em vez de coordenadas fixas de tela — clicar, digitar, ler grids de qualquer app desktop.",
-   "tags": ["windows", "automação", "uiautomation"],
+   "tags": [
+    "windows",
+    "automação",
+    "uiautomation"
+   ],
    "icon": "icons/mouse-pointer-click.svg",
    "url": "skills/automatizar-windows-uiautomation.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -511,7 +604,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Abre arquivos, roda macros, lê e envia e-mails e controla o Office já instalado via automação COM (pywin32/PowerShell), com regra de nunca enviar e-mail sem confirmação.",
-   "tags": ["office", "com", "automação"],
+   "tags": [
+    "office",
+    "com",
+    "automação"
+   ],
    "icon": "icons/office.svg",
    "url": "skills/automatizar-office-com.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -523,7 +620,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Autenticação (Bearer/Basic/OAuth2/API key), paginação (offset/cursor/Link header), retry com backoff exponencial e idempotência, com exemplos em Python, PowerShell e curl.",
-   "tags": ["api", "http", "integração"],
+   "tags": [
+    "api",
+    "http",
+    "integração"
+   ],
    "icon": "icons/webhook.svg",
    "url": "skills/chamar-apis-http.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -535,7 +636,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Fluxos authorization code, client credentials e device code, renovação de token e armazenamento seguro no Windows Credential Manager (via keyring).",
-   "tags": ["oauth2", "autenticação", "api"],
+   "tags": [
+    "oauth2",
+    "autenticação",
+    "api"
+   ],
    "icon": "icons/key-round.svg",
    "url": "skills/oauth2-login-servicos.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -547,7 +652,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Checa disponibilidade e tempo de resposta via HTTP, com histórico em SQLite e alerta só na transição de estado (não a cada checagem).",
-   "tags": ["monitoramento", "http", "alertas"],
+   "tags": [
+    "monitoramento",
+    "http",
+    "alertas"
+   ],
    "icon": "icons/radar.svg",
    "url": "skills/monitorar-paginas-sistemas.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -559,7 +668,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Baixa listas de URLs em paralelo controlado com retomada e validação de hash, e envia arquivos em lote para SharePoint/OneDrive/Drive via API.",
-   "tags": ["download", "upload", "automação"],
+   "tags": [
+    "download",
+    "upload",
+    "automação"
+   ],
    "icon": "icons/cloud-download.svg",
    "url": "skills/downloads-uploads-em-massa.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -571,7 +684,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Lê, filtra, baixa anexos e envia e-mail via IMAP/SMTP ou Microsoft Graph, e lida com arquivos .msg/.eml — sempre com confirmação antes de enviar.",
-   "tags": ["email", "imap", "smtp"],
+   "tags": [
+    "email",
+    "imap",
+    "smtp"
+   ],
    "icon": "icons/mail.svg",
    "url": "skills/ler-enviar-email.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -583,7 +700,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Envia mensagens para canais do Teams via webhook (cartões adaptativos, menções) ou Graph API, para status de builds e alertas.",
-   "tags": ["teams", "webhook", "alertas"],
+   "tags": [
+    "teams",
+    "webhook",
+    "alertas"
+   ],
    "icon": "icons/teams.svg",
    "url": "skills/mensagens-microsoft-teams.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -595,7 +716,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Envia templates aprovados e mídia via WhatsApp Cloud API oficial, recebe respostas via webhook — nunca automação não-oficial que pode banir o número.",
-   "tags": ["whatsapp", "api", "mensagens"],
+   "tags": [
+    "whatsapp",
+    "api",
+    "mensagens"
+   ],
    "icon": "icons/whatsapp.svg",
    "url": "skills/whatsapp-cloud-api.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -607,7 +732,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Cria um bot do Telegram ou Discord, recebe comandos e envia arquivos/mensagens — canal de notificação simples e barato.",
-   "tags": ["telegram", "discord", "bot"],
+   "tags": [
+    "telegram",
+    "discord",
+    "bot"
+   ],
    "icon": "icons/telegram.svg",
    "url": "skills/telegram-discord-bots.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -619,7 +748,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Cria, atualiza, transiciona e consulta itens no Jira (JQL), Azure DevOps (WIQL) e GitHub Issues, com anexo de evidências.",
-   "tags": ["jira", "azure-devops", "github"],
+   "tags": [
+    "jira",
+    "azure-devops",
+    "github"
+   ],
    "icon": "icons/jira.svg",
    "url": "skills/jira-azuredevops-github-issues.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -631,7 +764,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Gera convites .ics com fuso horário correto e recorrência, e usa Graph API para achar horários livres na agenda do Outlook 365.",
-   "tags": ["calendário", "ics", "agenda"],
+   "tags": [
+    "calendário",
+    "ics",
+    "agenda"
+   ],
    "icon": "icons/calendar-clock.svg",
    "url": "skills/calendario-agendamentos.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -643,7 +780,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Lista, baixa, sobe e versiona documentos e itens de lista do SharePoint/OneDrive via Microsoft Graph API.",
-   "tags": ["sharepoint", "onedrive", "graph"],
+   "tags": [
+    "sharepoint",
+    "onedrive",
+    "graph"
+   ],
    "icon": "icons/sharepoint.svg",
    "url": "skills/sharepoint-onedrive-graph.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -655,7 +796,10 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Mensagens formatadas (Block Kit), threads, upload de arquivos e slash commands via Slack Web API.",
-   "tags": ["slack", "api"],
+   "tags": [
+    "slack",
+    "api"
+   ],
    "icon": "icons/slack.svg",
    "url": "skills/slack-web-api.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -667,7 +811,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Cria quadros/cartões/páginas a partir de um plano e move cartões conforme o progresso, via API do Trello, Notion e ClickUp.",
-   "tags": ["trello", "notion", "clickup"],
+   "tags": [
+    "trello",
+    "notion",
+    "clickup"
+   ],
    "icon": "icons/trello.svg",
    "url": "skills/trello-notion-clickup.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -679,7 +827,10 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Pipeline de objetos, try/catch com $ErrorActionPreference, remoting, equivalências com Unix e as armadilhas do 5.1 vs 7.",
-   "tags": ["powershell", "windows"],
+   "tags": [
+    "powershell",
+    "windows"
+   ],
    "icon": "icons/powershell.svg",
    "url": "skills/powershell-moderno.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -691,7 +842,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "winget, versões lado a lado (pyenv-win, nvm-windows), PATH por usuário vs. máquina, verificação pós-instalação.",
-   "tags": ["winget", "windows", "ambientes"],
+   "tags": [
+    "winget",
+    "windows",
+    "ambientes"
+   ],
    "icon": "icons/package.svg",
    "url": "skills/instalar-software-ambientes.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -703,7 +858,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Cria serviço e tarefa agendada com gatilhos/credenciais/reinício automático, e diagnostica falhas, sem instalar NSSM.",
-   "tags": ["windows", "agendador", "serviços"],
+   "tags": [
+    "windows",
+    "agendador",
+    "serviços"
+   ],
    "icon": "icons/timer.svg",
    "url": "skills/servicos-tarefas-agendadas-windows.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -715,7 +874,10 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Lê/grava chaves do registro com backup antes, autostart, associação de arquivo, proxy e política de grupo local.",
-   "tags": ["windows", "registro"],
+   "tags": [
+    "windows",
+    "registro"
+   ],
    "icon": "icons/list-tree.svg",
    "url": "skills/registro-windows-politicas.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -727,7 +889,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Ping, DNS, porta, rota e proxy em ordem — separa problema de rede de problema de aplicação, com tabela de interpretação de sintomas.",
-   "tags": ["redes", "diagnóstico", "windows"],
+   "tags": [
+    "redes",
+    "diagnóstico",
+    "windows"
+   ],
    "icon": "icons/network.svg",
    "url": "skills/redes-diagnostico-windows.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -739,7 +905,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "icacls, herança, net use, auditoria de quem tem acesso a quê e como corrigir excesso de permissão com segurança.",
-   "tags": ["ntfs", "permissões", "windows"],
+   "tags": [
+    "ntfs",
+    "permissões",
+    "windows"
+   ],
    "icon": "icons/folder-lock.svg",
    "url": "skills/compartilhamentos-permissoes-ntfs.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -751,7 +921,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Instala/define impressora, imprime PDF por linha de comando e gera etiquetas ZPL para Zebra, sem programa externo.",
-   "tags": ["impressora", "zpl", "etiquetas"],
+   "tags": [
+    "impressora",
+    "zpl",
+    "etiquetas"
+   ],
    "icon": "icons/printer.svg",
    "url": "skills/impressoras-etiquetas.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -763,7 +937,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "CPU/memória/disco/processos com contadores de desempenho e inventário de hardware via CIM, sem instalar agente externo.",
-   "tags": ["monitoramento", "windows", "desempenho"],
+   "tags": [
+    "monitoramento",
+    "windows",
+    "desempenho"
+   ],
    "icon": "icons/cpu.svg",
    "url": "skills/monitoramento-maquina-windows.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -775,7 +953,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Filtra por origem/ID/período com Get-WinEvent, correlaciona falhas de aplicação e exporta evidência para chamados.",
-   "tags": ["event-log", "windows", "diagnóstico"],
+   "tags": [
+    "event-log",
+    "windows",
+    "diagnóstico"
+   ],
    "icon": "icons/scroll-text.svg",
    "url": "skills/logs-windows-event-log.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -787,7 +969,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Cliente OpenSSH nativo do Windows: chaves, config, túneis, scp/sftp em lote — e quando de fato vale a pena instalar o WSL.",
-   "tags": ["ssh", "sftp", "windows"],
+   "tags": [
+    "ssh",
+    "sftp",
+    "windows"
+   ],
    "icon": "icons/terminal.svg",
    "url": "skills/ssh-sftp-linux-windows.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -799,7 +985,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "robocopy espelho e versionado por data, backup nativo de banco de dados, retenção, e por que testar a restauração é o passo que importa.",
-   "tags": ["backup", "robocopy", "windows"],
+   "tags": [
+    "backup",
+    "robocopy",
+    "windows"
+   ],
    "icon": "icons/database-backup.svg",
    "url": "skills/backup-restauracao-windows.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -811,7 +1001,10 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "sqlcmd/Invoke-Sqlcmd, plano de execução, bloqueios, backup/restore e jobs do Agent, com os erros mais comuns e a correção de cada um.",
-   "tags": ["sql-server", "banco-de-dados"],
+   "tags": [
+    "sql-server",
+    "banco-de-dados"
+   ],
    "icon": "icons/sqlserver.svg",
    "url": "skills/sql-server-na-pratica.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -823,7 +1016,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Conecta no banco Progress OpenEdge via ODBC/JDBC de fora do 4GL, consulta o dicionário de dados (_File/_Field), e usa proutil para exportar/importar .d e analisar logs .lg.",
-   "tags": ["progress", "openedge", "odbc"],
+   "tags": [
+    "progress",
+    "openedge",
+    "odbc"
+   ],
    "icon": "icons/progress-software.svg",
    "url": "skills/progress-openedge-odbc-jdbc.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -835,7 +1032,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Conecta, consulta, faz dump/restore, gerencia usuários/índices e lê EXPLAIN via bibliotecas Python, sem depender dos clientes psql/mysql instalados.",
-   "tags": ["postgresql", "mysql", "banco-de-dados"],
+   "tags": [
+    "postgresql",
+    "mysql",
+    "banco-de-dados"
+   ],
    "icon": "icons/postgresql.svg",
    "url": "skills/postgresql-mysql.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -847,7 +1048,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Mapeamento de tipos, ordem de carga por dependência de FK, lotes, validação de contagem/amostra e plano de rollback.",
-   "tags": ["migração", "banco-de-dados", "etl"],
+   "tags": [
+    "migração",
+    "banco-de-dados",
+    "etl"
+   ],
    "icon": "icons/arrow-right-left.svg",
    "url": "skills/migrar-dados-entre-bancos.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -859,7 +1064,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Do requisito ao modelo ER, 1FN/2FN/3FN na prática, quando desnormalizar de propósito, chaves/índices e geração de DDL.",
-   "tags": ["modelagem", "banco-de-dados", "ddl"],
+   "tags": [
+    "modelagem",
+    "banco-de-dados",
+    "ddl"
+   ],
    "icon": "icons/workflow.svg",
    "url": "skills/modelagem-normalizacao-dados.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -871,7 +1080,10 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "dotnet CLI, NuGet, async/await sem deadlock, Entity Framework Core, minimal APIs e como ler exceptions/stack traces .NET.",
-   "tags": ["dotnet", "csharp"],
+   "tags": [
+    "dotnet",
+    "csharp"
+   ],
    "icon": "icons/dotnet.svg",
    "url": "skills/dotnet-csharp-moderno.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -883,7 +1095,10 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "venv/uv, requirements.txt vs. pyproject.toml, e gerar .exe standalone com PyInstaller para rodar sem Python instalado.",
-   "tags": ["python", "empacotamento"],
+   "tags": [
+    "python",
+    "empacotamento"
+   ],
    "icon": "icons/python.svg",
    "url": "skills/python-ambientes-empacotamento.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -895,7 +1110,10 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "npm/pnpm, ESM vs. CommonJS, tsconfig, empacotar CLI e depurar com --inspect.",
-   "tags": ["nodejs", "typescript"],
+   "tags": [
+    "nodejs",
+    "typescript"
+   ],
    "icon": "icons/nodejs.svg",
    "url": "skills/nodejs-typescript.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -907,7 +1125,10 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Processo principal vs. renderer, IPC seguro via preload/contextIsolation, empacotar com electron-builder, auto-update e assinatura.",
-   "tags": ["electron", "desktop"],
+   "tags": [
+    "electron",
+    "desktop"
+   ],
    "icon": "icons/electron.svg",
    "url": "skills/electron-desktop-apps.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -919,7 +1140,10 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Maven/Gradle, perfis de ambiente, Actuator, logs estruturados e empacotamento como jar rodando como serviço.",
-   "tags": ["java", "spring-boot"],
+   "tags": [
+    "java",
+    "spring-boot"
+   ],
    "icon": "icons/springboot.svg",
    "url": "skills/java-spring-boot.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -931,7 +1155,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Versionamento, status codes corretos, paginação, formato de erro padronizado e geração de cliente a partir de OpenAPI.",
-   "tags": ["rest", "api", "design"],
+   "tags": [
+    "rest",
+    "api",
+    "design"
+   ],
    "icon": "icons/route.svg",
    "url": "skills/apis-rest-bem-desenhadas.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -943,7 +1171,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Quando usar GraphQL/gRPC em vez de REST, schemas básicos, o problema de N+1 em resolvers, e geração de código a partir de .proto.",
-   "tags": ["graphql", "grpc", "api"],
+   "tags": [
+    "graphql",
+    "grpc",
+    "api"
+   ],
    "icon": "icons/graphql.svg",
    "url": "skills/graphql-grpc.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -955,7 +1187,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "pytest, Jest/Vitest, xUnit, JUnit: fixtures, mocks, cobertura e page objects, com nota sobre teste de integração com banco em container.",
-   "tags": ["testes", "pytest", "jest"],
+   "tags": [
+    "testes",
+    "pytest",
+    "jest"
+   ],
    "icon": "icons/flask-conical.svg",
    "url": "skills/testes-automatizados-por-stack.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -967,7 +1203,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Threads vs. async, integração com RabbitMQ/Redis/Service Bus, idempotência, retries e dead-letter (assumindo broker já provisionado).",
-   "tags": ["concorrência", "filas", "rabbitmq"],
+   "tags": [
+    "concorrência",
+    "filas",
+    "rabbitmq"
+   ],
    "icon": "icons/list-ordered.svg",
    "url": "skills/concorrencia-filas.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -979,7 +1219,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Pipelines com segredos, cache, artefatos, matrizes e deploy condicional/com aprovação, nas três plataformas mais comuns.",
-   "tags": ["ci-cd", "github-actions", "devops"],
+   "tags": [
+    "ci-cd",
+    "github-actions",
+    "devops"
+   ],
    "icon": "icons/githubactions.svg",
    "url": "skills/cicd-pipelines.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -991,7 +1235,10 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "az CLI para App Service, Storage, Key Vault e Functions, autenticação de aplicação (Service Principal) e monitoramento de custos.",
-   "tags": ["azure", "cloud"],
+   "tags": [
+    "azure",
+    "cloud"
+   ],
    "icon": "icons/azure.svg",
    "url": "skills/azure-para-desenvolvedores.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1003,7 +1250,10 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "aws CLI para S3, Lambda, EC2 e IAM com permissão mínima, com atenção especial a custo (stop vs. terminate).",
-   "tags": ["aws", "cloud"],
+   "tags": [
+    "aws",
+    "cloud"
+   ],
    "icon": "icons/aws.svg",
    "url": "skills/aws-para-desenvolvedores.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1015,7 +1265,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Estrutura, state remoto, módulos, plan/apply seguro e por que o Terraform às vezes quer destruir algo inesperado (drift).",
-   "tags": ["terraform", "bicep", "iac"],
+   "tags": [
+    "terraform",
+    "bicep",
+    "iac"
+   ],
    "icon": "icons/terraform.svg",
    "url": "skills/infra-como-codigo-terraform.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1027,7 +1281,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Credential Manager do Windows (via keyring), variáveis de ambiente, .env fora do Git, rotação e detecção de vazamento no histórico do Git.",
-   "tags": ["segredos", "segurança", "credenciais"],
+   "tags": [
+    "segredos",
+    "segurança",
+    "credenciais"
+   ],
    "icon": "icons/lock-keyhole.svg",
    "url": "skills/gerenciar-segredos-windows.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1039,7 +1297,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Hash de senha correto (bcrypt/argon2, nunca SHA/MD5 puro), AES para arquivos e TLS, sem precisar do OpenSSL instalado separadamente.",
-   "tags": ["criptografia", "segurança", "hash"],
+   "tags": [
+    "criptografia",
+    "segurança",
+    "hash"
+   ],
    "icon": "icons/shield.svg",
    "url": "skills/criptografia-aplicada.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1051,7 +1313,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "PFX/PEM, verificação de validade e cadeia, assinatura de PDF e XML (NF-e), sem precisar do openssl.exe instalado.",
-   "tags": ["certificado-digital", "assinatura", "nfe"],
+   "tags": [
+    "certificado-digital",
+    "assinatura",
+    "nfe"
+   ],
    "icon": "icons/file-signature.svg",
    "url": "skills/certificados-digitais-assinatura.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1063,7 +1329,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "JWT (com validação de algoritmo), sessões, RBAC, MFA (TOTP) e SSO com Azure AD/Entra ID, com os erros clássicos a evitar.",
-   "tags": ["autenticação", "jwt", "rbac"],
+   "tags": [
+    "autenticação",
+    "jwt",
+    "rbac"
+   ],
    "icon": "icons/fingerprint.svg",
    "url": "skills/autenticacao-autorizacao-apps.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1075,7 +1345,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "OWASP Top 10 aplicado na revisão, scanners gratuitos (pip-audit, npm audit, Semgrep) e política de atualização de dependências vulneráveis.",
-   "tags": ["segurança", "owasp", "sast"],
+   "tags": [
+    "segurança",
+    "owasp",
+    "sast"
+   ],
    "icon": "icons/shield-alert.svg",
    "url": "skills/analise-seguranca-dependencias.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1087,7 +1361,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Estrutura do XML, validação por schema, consulta de status na SEFAZ (Web Service SOAP), geração de DANFE em PDF e chave de acesso.",
-   "tags": ["nfe", "cte", "fiscal"],
+   "tags": [
+    "nfe",
+    "cte",
+    "fiscal"
+   ],
    "icon": "icons/receipt.svg",
    "url": "skills/nfe-nfse-cte-xml.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1099,7 +1377,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Algoritmo real de dígito verificador (não regex) para CPF/CNPJ, e consulta de CEP/dados de empresa via APIs públicas gratuitas com fallback.",
-   "tags": ["cpf", "cnpj", "cep"],
+   "tags": [
+    "cpf",
+    "cnpj",
+    "cep"
+   ],
    "icon": "icons/id-card.svg",
    "url": "skills/validar-cpf-cnpj-cep.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1111,7 +1393,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Código de barras de boleto (FEBRABAN, Módulo 11), quando usar registro via API do banco, e onde está o gerador de QR PIX.",
-   "tags": ["boleto", "pix", "febraban"],
+   "tags": [
+    "boleto",
+    "pix",
+    "febraban"
+   ],
    "icon": "icons/barcode.svg",
    "url": "skills/boletos-pix.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1123,7 +1409,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "APIs do BACEN (PTAX, SELIC, IPCA) e cálculo de dias úteis com feriados nacionais/bancários via workalendar.",
-   "tags": ["bacen", "câmbio", "feriados"],
+   "tags": [
+    "bacen",
+    "câmbio",
+    "feriados"
+   ],
    "icon": "icons/trending-up.svg",
    "url": "skills/cambio-indices-feriados.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1135,7 +1425,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Lê extrato OFX e retorno CNAB 240/400 e concilia automaticamente com contas a receber/pagar, separando conciliado/não encontrado/divergente.",
-   "tags": ["ofx", "cnab", "conciliação"],
+   "tags": [
+    "ofx",
+    "cnab",
+    "conciliação"
+   ],
    "icon": "icons/landmark.svg",
    "url": "skills/extratos-bancarios-ofx-cnab.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1147,7 +1441,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Identifica dado pessoal, aplica anonimização de verdade (não só mascaramento), log de acesso, prazo de retenção e RIPD simplificado.",
-   "tags": ["lgpd", "privacidade", "compliance"],
+   "tags": [
+    "lgpd",
+    "privacidade",
+    "compliance"
+   ],
    "icon": "icons/shield-check.svg",
    "url": "skills/lgpd-na-pratica.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1159,7 +1457,10 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Estrutura, exemplos few-shot, saída estruturada em JSON, redução de alucinação e como adaptar por tamanho/capacidade do modelo.",
-   "tags": ["prompt-engineering", "ia"],
+   "tags": [
+    "prompt-engineering",
+    "ia"
+   ],
    "icon": "icons/sparkles.svg",
    "url": "skills/escrever-bons-prompts.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1171,7 +1472,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Formato OpenAI-compatível, streaming, tool calling, cache de prompt e tratamento de rate limit; aponta para a skill claude-api para detalhes da Anthropic.",
-   "tags": ["ia", "api", "llm"],
+   "tags": [
+    "ia",
+    "api",
+    "llm"
+   ],
    "icon": "icons/bot.svg",
    "url": "skills/chamar-apis-de-ia.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1183,7 +1488,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Chunking, embeddings, banco vetorial embutido (Chroma, sem servidor separado), recuperação, e quando RAG não é a resposta certa.",
-   "tags": ["rag", "embeddings", "ia"],
+   "tags": [
+    "rag",
+    "embeddings",
+    "ia"
+   ],
    "icon": "icons/brain-circuit.svg",
    "url": "skills/construir-agentes-rag.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1195,7 +1504,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Corta por tempo, concatena, extrai áudio, comprime para WhatsApp, gera GIF e queima legenda SRT — ffmpeg portátil já empacotado, sem instalar nada.",
-   "tags": ["ffmpeg", "vídeo", "portátil"],
+   "tags": [
+    "ffmpeg",
+    "vídeo",
+    "portátil"
+   ],
    "icon": "icons/ffmpeg.svg",
    "url": "skills/cortar-converter-legendar-video.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1207,7 +1520,12 @@
    "version": "1.1.0",
    "author": "QualiIT",
    "description": "Gera fluxos, grafos, ER e arquitetura (Graphviz), sequência/classes/casos de uso (PlantUML) e qualquer um em Mermaid como PNG/SVG. Graphviz e PlantUML já empacotados; Mermaid CLI se instala sozinho quando precisar.",
-   "tags": ["graphviz", "plantuml", "mermaid", "diagramas"],
+   "tags": [
+    "graphviz",
+    "plantuml",
+    "mermaid",
+    "diagramas"
+   ],
    "icon": "icons/git-fork.svg",
    "url": "skills/diagramas-tecnicos-graphviz-plantuml.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1219,7 +1537,12 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Reverse proxy com Nginx e emissão/renovação automática de certificado Let's Encrypt com win-acme — ambos portáteis já empacotados, sem instalar nada.",
-   "tags": ["nginx", "https", "lets-encrypt", "portátil"],
+   "tags": [
+    "nginx",
+    "https",
+    "lets-encrypt",
+    "portátil"
+   ],
    "icon": "icons/nginx.svg",
    "url": "skills/certificados-https-nginx-winacme.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1231,7 +1554,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Extrai texto de imagens e PDFs escaneados com Tesseract, com pré-processamento de imagem e OCR por região — instalador e idioma português já empacotados.",
-   "tags": ["ocr", "tesseract", "português"],
+   "tags": [
+    "ocr",
+    "tesseract",
+    "português"
+   ],
    "icon": "icons/scan-text.svg",
    "url": "skills/ocr-imagens-pdf-tesseract.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1243,7 +1570,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Abre sites, faz login, preenche formulários, baixa arquivos e tira screenshots com seletores robustos — instala Python+Playwright sozinho se faltar.",
-   "tags": ["playwright", "automação", "navegador"],
+   "tags": [
+    "playwright",
+    "automação",
+    "navegador"
+   ],
    "icon": "icons/playwright.svg",
    "url": "skills/automatizar-navegador-playwright.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1255,7 +1586,12 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Estrutura testes E2E com Playwright Test ou Cypress — fixtures, page objects, vídeo/trace na falha e execução em CI. Instala sozinho o que faltar.",
-   "tags": ["playwright", "cypress", "e2e", "testes"],
+   "tags": [
+    "playwright",
+    "cypress",
+    "e2e",
+    "testes"
+   ],
    "icon": "icons/cypress.svg",
    "url": "skills/testes-e2e-playwright-cypress.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1267,7 +1603,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Preenche um formulário web a partir de uma planilha (uma linha por submissão), com verificação de sucesso, salvamento incremental e reexecução só das linhas que falharam.",
-   "tags": ["playwright", "automação", "formulários"],
+   "tags": [
+    "playwright",
+    "automação",
+    "formulários"
+   ],
    "icon": "icons/clipboard-list.svg",
    "url": "skills/preencher-formularios-web-lote.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1279,7 +1619,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Transcreve áudio/vídeo com faster-whisper local (escolha de modelo pelo hardware) ou API, gerando SRT com tempos. Instala sozinho o que faltar.",
-   "tags": ["whisper", "transcrição", "áudio"],
+   "tags": [
+    "whisper",
+    "transcrição",
+    "áudio"
+   ],
    "icon": "icons/captions.svg",
    "url": "skills/transcrever-audio-whisper.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1291,7 +1635,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Converte doc→pdf, xls→csv, pptx→pdf e roda macros em lote via LibreOffice headless, sem precisar do Office instalado. Instala o LibreOffice sozinho via winget se faltar.",
-   "tags": ["libreoffice", "conversão", "documentos"],
+   "tags": [
+    "libreoffice",
+    "conversão",
+    "documentos"
+   ],
    "icon": "icons/libreoffice.svg",
    "url": "skills/libreoffice-linha-de-comando.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1303,7 +1651,10 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Dockerfile multi-stage, compose, volumes/redes, logs e depuração de container que não sobe. Instala Docker Desktop sozinho quando possível, mas para e avisa se exigir reiniciar o Windows (WSL2).",
-   "tags": ["docker", "containers"],
+   "tags": [
+    "docker",
+    "containers"
+   ],
    "icon": "icons/docker.svg",
    "url": "skills/docker-windows.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1315,7 +1666,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Consulta usuários/grupos, reseta senha, relatório de contas inativas e criação em lote via CSV. Habilita sozinho o módulo RSAT se faltar.",
-   "tags": ["active-directory", "rsat", "usuários"],
+   "tags": [
+    "active-directory",
+    "rsat",
+    "usuários"
+   ],
    "icon": "icons/user-cog.svg",
    "url": "skills/active-directory-usuarios.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1327,7 +1682,11 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "kubectl, manifests, ConfigMap/Secret, logs/eventos, port-forward e Helm básico. Instala kubectl e um cluster local (minikube) sozinho se faltar.",
-   "tags": ["kubernetes", "kubectl", "containers"],
+   "tags": [
+    "kubernetes",
+    "kubectl",
+    "containers"
+   ],
    "icon": "icons/kubernetes.svg",
    "url": "skills/kubernetes-essencial.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
@@ -1339,9 +1698,33 @@
    "version": "1.0.0",
    "author": "QualiIT",
    "description": "Conecta via python-oracledb (modo thin, sem precisar do Instant Client na maioria dos casos), tipos de dados, sequências e PL/SQL mínimo. O Instant Client completo exige aceite de licença manual no site da Oracle.",
-   "tags": ["oracle", "sql", "banco-de-dados"],
+   "tags": [
+    "oracle",
+    "sql",
+    "banco-de-dados"
+   ],
    "icon": "icons/oracle.svg",
    "url": "skills/oracle-basico-integracoes.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "comfyui",
+   "type": "skill",
+   "name": "ComfyUI",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Monta, entende, corrige e roda workflows do ComfyUI (SD 1.5, SDXL, Flux, vídeo): onde colocar cada modelo, prompts, seed/steps/CFG/sampler/denoise, LoRA, ControlNet, inpainting, upscale e troubleshooting. Inclui comfy.cmd para falar com um ComfyUI local pela API: status/VRAM, modelos instalados, nodes, validar workflow (nodes ausentes, arquivos de modelo que não existem, ligações quebradas) e rodar baixando as imagens. Traz o manual completo como referência.",
+   "tags": [
+    "comfyui",
+    "stable-diffusion",
+    "flux",
+    "imagem",
+    "workflow",
+    "lora",
+    "controlnet"
+   ],
+   "icon": "icons/image.svg",
+   "url": "skills/comfyui.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
   }
  ]
