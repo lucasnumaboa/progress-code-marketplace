@@ -1746,6 +1746,26 @@
    "icon": "icons/progress-software.svg",
    "url": "skills/po-ui-backend-local.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "po-ui-creation",
+   "type": "skill",
+   "name": "Criar projeto PO-UI (Angular 17 + Datasul)",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Cria um projeto novo de frontend Angular 17 + PO-UI 17 para o TOTVS Datasul a partir de um modelo que vem na skill: casca Angular, tema Datasul, URL da API lida em runtime (app-config.json), interceptor do token JWT, web.xml com SSO, build de produção e .war para o Tomcat, e a tela de exemplo Consulta de Notas com o programa esp/api/v1 que ela chama. criar-projeto.js troca o nome do projeto e pode instalar e buildar. Funciona junto com a skill Backend local PO-UI para testar sem o servidor do cliente. Requer Node 18+.",
+   "tags": [
+    "po-ui",
+    "angular",
+    "datasul",
+    "frontend",
+    "progress",
+    "pasoe",
+    "tomcat"
+   ],
+   "icon": "icons/progress-software.svg",
+   "url": "skills/po-ui-creation.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
   }
  ]
 }
