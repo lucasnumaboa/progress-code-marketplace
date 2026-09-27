@@ -1711,9 +1711,9 @@
    "id": "comfyui",
    "type": "skill",
    "name": "ComfyUI",
-   "version": "1.0.0",
+   "version": "1.0.1",
    "author": "QualiIT",
-   "description": "Monta, entende, corrige e roda workflows do ComfyUI (SD 1.5, SDXL, Flux, vídeo): onde colocar cada modelo, prompts, seed/steps/CFG/sampler/denoise, LoRA, ControlNet, inpainting, upscale e troubleshooting. Inclui comfy.cmd para falar com um ComfyUI local pela API: status/VRAM, modelos instalados, nodes, validar workflow (nodes ausentes, arquivos de modelo que não existem, ligações quebradas) e rodar baixando as imagens. Traz o manual completo como referência.",
+   "description": "Monta, entende, corrige e roda workflows do ComfyUI (SD 1.5, SDXL, Flux, vídeo): onde colocar cada modelo, prompts, seed/steps/CFG/sampler/denoise, LoRA, ControlNet, inpainting, upscale e troubleshooting. Inclui comfy.cmd para falar com o ComfyUI pela API, local ou em outro PC da rede (comfy.cmd endereco grava o IP): status/VRAM, modelos instalados, nodes, validar workflow (nodes ausentes, arquivos de modelo que não existem, ligações quebradas) e rodar baixando as imagens. Traz o manual completo como referência.",
    "tags": [
     "comfyui",
     "stable-diffusion",
