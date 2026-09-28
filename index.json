@@ -1766,6 +1766,25 @@
    "icon": "icons/progress-software.svg",
    "url": "skills/po-ui-creation.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "criar-documentacao-gmud-interna",
+   "type": "skill",
+   "name": "GMUD Interna QualiIT",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Gera a Documentação GMUD Interna da QualiIT (Documento de Liberação para Projetos) em Word a partir do modelo homologado: entrevista em listas numeradas (chamado/projeto, base de homologação, deploy, programa de acerto e executor, delta, load, cadastros BAS_PROG_DTSUL/BAS_PROCEDIMENTO/UPC/trigger, parâmetros ESTI0101 com as tabelas es_param_global_ti e es_param_global_ti_item, otimizador, PASOE), lê os prints, monta o DOCX com os fontes por PROPATH e confere o resultado (auditoria + render das páginas via Word/LibreOffice).",
+   "tags": [
+    "gmud",
+    "liberacao",
+    "docx",
+    "documentacao",
+    "datasul",
+    "qualiit"
+   ],
+   "icon": "icons/file-signature.svg",
+   "url": "skills/criar-documentacao-gmud-interna.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
   }
  ]
 }
