@@ -1731,9 +1731,9 @@
    "id": "po-ui-backend-local",
    "type": "skill",
    "name": "Backend local PO-UI (API Datasul simulada)",
-   "version": "1.0.0",
+   "version": "1.1.0",
    "author": "QualiIT",
-   "description": "Sobe, dentro da pasta de um projeto PO-UI, um backend Progress local: bancos OpenEdge criados a partir de .df (só com as tabelas que os programas usam) e uma API REST no mesmo formato do Datasul/PASOE (/api/esp/v1/<programa>), com framework de API simulado (ut-api*.i, JsonApiResponseBuilder) para rodar e testar os programas esp/api/v1 sem sandbox nem servidor do cliente. Ajusta o proxy do front e deixa subir/parar/status/compilar.bat. Traz o exemplo do treinamento (nota-fiscal + esnf0001ws.p, carga de 4 ou 100 mil notas). Requer Windows, OpenEdge 12 com licença de banco e Node 18+.",
+   "description": "Sobe, dentro da pasta de um projeto PO-UI, um backend Progress local: bancos OpenEdge criados a partir de .df (só com as tabelas que os programas usam) e uma API REST no mesmo formato do Datasul/PASOE (/api/esp/v1/<programa>), com framework de API simulado (ut-api*.i, JsonApiResponseBuilder) para rodar e testar os programas esp/api/v1 sem sandbox nem servidor do cliente. Ajusta o proxy do front e deixa subir/parar/status/compilar.bat. Traz o exemplo do treinamento (nota-fiscal + esnf0001ws.p, carga de 4 ou 100 mil notas). Vem compilado (bin/pbl.exe, pacote de 33 MB): não precisa de Node. Requer Windows e OpenEdge 12 com licença de banco.",
    "tags": [
     "progress",
     "po-ui",
@@ -1744,7 +1744,7 @@
     "openedge"
    ],
    "icon": "icons/progress-software.svg",
-   "url": "skills/po-ui-backend-local.zip",
+   "url": "https://github.com/lucasnumaboa/progress-code-marketplace/releases/download/skill-po-ui-backend-local-1.1.0/po-ui-backend-local.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
   },
   {
