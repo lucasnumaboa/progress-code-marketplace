@@ -1785,6 +1785,24 @@
    "icon": "icons/file-signature.svg",
    "url": "skills/criar-documentacao-gmud-interna.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "produtos-personalizados-3d",
+   "type": "skill",
+   "name": "Produtos Personalizados 3D",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Gera produtos personalizados para impressão 3D (tigela de pet com nome em volta, plaquinha de coleira) com receitas paramétricas do SolidCraft (3D Maker), exporta 3MF/STL/STEP com prévia, fatia na Bambu Lab A1 e calcula custo e preço de venda na Shopee.",
+   "tags": [
+    "3d",
+    "solidcraft",
+    "impressao-3d",
+    "personalizado",
+    "shopee"
+   ],
+   "icon": "icons/printer.svg",
+   "url": "skills/produtos-personalizados-3d.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
   }
  ]
 }
