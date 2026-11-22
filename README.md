@@ -7,7 +7,7 @@ No app: Configurações → Marketplace → Adicionar fonte → `https://github.
 
 ```json
 { "name": "Nome do catálogo", "description": "opcional",
-  "items": [ { "id": "unico", "type": "skill|agent|command|mcp|team|pack", "name": "…", "description": "…",
+  "items": [ { "id": "unico", "type": "skill|agent|command|mcp|team|pack|bot", "name": "…", "description": "…",
                "version": "1.0.0", "author": "…", "tags": ["…"], "url": "skills/x.zip", "homepage": "https://…" } ] }
 ```
 
@@ -15,7 +15,8 @@ No app: Configurações → Marketplace → Adicionar fonte → `https://github.
 - **skill**: `SKILL.md` ou `.zip` com a pasta da skill (SKILL.md + scripts). Instala em `%APPDATA%\Progress Code\skills\<nome>`.
 - **agent** / **command**: arquivo `.md` com frontmatter. Vão para `agents\` e `commands\` do app.
 - **mcp**: `.json` com `{ "mcpServers": { "nome": { "type": "stdio", "command": "…", "args": [] } } }` (ou `config` inline no index). Entra em Configurações → Servidores MCP.
-- **team**: `.json` com `{ "teams": [ … ] }` no formato de `settings.json`. Entra em Configurações → Multiagente.
+- **team**: `.json` com `{ "teams": [ … ] }` (formato do antigo modo multiagente). Cada papel vira um bot do Prog Bot.
+- **bot**: `.json` no formato `progress-code-bot` (template: nome, cargo, instruções, skills, conectores e rotinas) em `bots/<id>.json`, com `category` no index e ícone em `icons/bots/<id>.svg`. Aparece em Personalizar → Marketplace de bots. As skills que o bot usa (ids das skills deste catálogo) são baixadas só para a pasta dele; as rotinas chegam desligadas; contas e chaves nunca vêm no template.
 - **pack**: `.zip` com pastas `skills/`, `agents/`, `commands/` e arquivos `mcp.json`, `teams.json` — instala tudo de uma vez.
 - `version` diferente da instalada mostra o botão **Atualizar**. Só .zip (não .rar): o app extrai sem programa externo.
 

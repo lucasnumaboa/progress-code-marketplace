@@ -1,6 +1,6 @@
 {
  "name": "Progress Code · catálogo QualiIT",
- "description": "Skills, equipes e servidores MCP para Progress OpenEdge / Datasul",
+ "description": "Skills, bots e servidores MCP para Progress OpenEdge / Datasul e para o dia a dia",
  "items": [
   {
    "id": "conversor-telas-datasul-poui",
@@ -1802,6 +1802,1922 @@
    ],
    "icon": "icons/printer.svg",
    "url": "skills/produtos-personalizados-3d.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-analista-midia-paga-l6",
+   "type": "bot",
+   "name": "Analista de Mídia Paga",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Lê seus anúncios, explica os números e vigia o gasto. Junta dados das plataformas de anúncio e das planilhas exportadas, entrega relatórios de semana e de mês com comentário claro, tira dúvidas mostrando o número exato e avisa quando a verba passa do combinado.",
+   "category": "Marketing",
+   "tags": [
+    "midia-paga",
+    "google-ads",
+    "relatorios",
+    "marketing",
+    "orcamento",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-analista-midia-paga-l6.svg",
+   "url": "bots/bot-analista-midia-paga-l6.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-assistente-executivo-l3",
+   "type": "bot",
+   "name": "Assistente Executivo de Agenda",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Apoio para quem cuida da agenda de executivos. Monta o quadro de salas das reuniões, prepara entrevistas, controla pedidos de contato da liderança, mapeia canais do Slack e confere planilhas contra a agenda. Nada é reservado ou enviado sem seu OK.",
+   "category": "Operações",
+   "tags": [
+    "assistente-executivo",
+    "agenda",
+    "salas",
+    "slack",
+    "operacoes",
+    "operações",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-assistente-executivo-l3.svg",
+   "url": "bots/bot-assistente-executivo-l3.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-assistente-relacionamento-l4",
+   "type": "bot",
+   "name": "Assistente do Relacionamento",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Ajudante de datas, programas e presentes a dois. Cuida da parte chata de manter o romance em dia: lembra as datas importantes, pesquisa restaurantes, programas e presentes e deixa os pedidos de reserva escritos. Reservar, pagar e ir é com você.",
+   "category": "Pessoal",
+   "tags": [
+    "relacionamento",
+    "datas",
+    "presentes",
+    "encontros",
+    "pessoal",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-assistente-relacionamento-l4.svg",
+   "url": "bots/bot-assistente-relacionamento-l4.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-auditor-noturno-l1",
+   "type": "bot",
+   "name": "Auditor Noturno de Código",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Revisor noturno de código com correções pequenas. Percorre o repositório de madrugada, escolhe um problema que vale a pena em cada área e deixa a correção num branch local, com a origem explicada e testes rodados. PR só com a sua autorização.",
+   "category": "Engenharia",
+   "tags": [
+    "auditoria",
+    "código",
+    "refatoração",
+    "qualidade",
+    "noturno",
+    "engenharia",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-auditor-noturno-l1.svg",
+   "url": "bots/bot-auditor-noturno-l1.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-auditoria-site-l1",
+   "type": "bot",
+   "name": "Auditoria Completa de Site",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Auditor de site em SEO, velocidade, acessibilidade e vendas. Examina o site no ar em seis frentes (SEO técnico, conteúdo, velocidade, acessibilidade, conversão e dados estruturados), dá nota por frente e lista problemas por prioridade, cada um com a página de prova.",
+   "category": "Marketing",
+   "tags": [
+    "seo",
+    "auditoria",
+    "acessibilidade",
+    "performance",
+    "conversão",
+    "marketing",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-auditoria-site-l1.svg",
+   "url": "bots/bot-auditoria-site-l1.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-banco-provas-l6",
+   "type": "bot",
+   "name": "Banco de Provas de Clientes",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Guarda falas e resultados de clientes e vira casos reais. Organiza o que clientes disseram em chamadas, pesquisas, tickets e e-mails num acervo com fonte e status de aprovação, e monta casos de sucesso e depoimentos fiéis ao original. Publicar depende do seu sim.",
+   "category": "Marketing",
+   "tags": [
+    "estudo-de-caso",
+    "depoimentos",
+    "marketing",
+    "prova-social",
+    "clientes",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-banco-provas-l6.svg",
+   "url": "bots/bot-banco-provas-l6.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-batedor-demos-tecnicas-l5",
+   "type": "bot",
+   "name": "Batedor de Demos Técnicas",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Demo diária de ferramenta nova para devs. Todo dia útil sugere uma biblioteca ou ferramenta recente que merece teste, espera seu aval e constrói uma demo pequena no seu repositório de demos, com print e vídeo no PR.",
+   "category": "Engenharia",
+   "tags": [
+    "demos",
+    "prototipagem",
+    "bibliotecas",
+    "github",
+    "engenharia",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-batedor-demos-tecnicas-l5.svg",
+   "url": "bots/bot-batedor-demos-tecnicas-l5.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-boletim-tecnologia-l2",
+   "type": "bot",
+   "name": "Boletim de Tecnologia e Concorrentes",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Boletim diário de IA, tecnologia e concorrentes. Escolhe poucas notícias de IA, tecnologia, investimento e negócios, explica cada uma em linguagem simples e, à tarde, só avisa se algum concorrente fizer algo que importa.",
+   "category": "Produto",
+   "tags": [
+    "notícias",
+    "inteligência artificial",
+    "concorrentes",
+    "venture capital",
+    "boletim",
+    "produto",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-boletim-tecnologia-l2.svg",
+   "url": "bots/bot-boletim-tecnologia-l2.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-cacador-ofertas-l1",
+   "type": "bot",
+   "name": "Caçador de Ofertas",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Comparador de preço final com frete e impostos. Calcula quanto a compra custa de verdade, com frete para o seu CEP, impostos e taxas, compara as lojas em que você confia e vigia itens da sua lista. Não compra nada por você.",
+   "category": "Pessoal",
+   "tags": [
+    "compras",
+    "preços",
+    "ofertas",
+    "frete",
+    "pessoal",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-cacador-ofertas-l1.svg",
+   "url": "bots/bot-cacador-ofertas-l1.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-cacador-talentos-l6",
+   "type": "bot",
+   "name": "Caçador de Talentos",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Acha candidatos novos para sua vaga com prova pública. Vasculha a web pública atrás de profissionais que combinam com a sua vaga e que você ainda não abordou. Cada nome chega com links de comprovação e uma sugestão de primeira mensagem.",
+   "category": "Pessoas e Recrutamento",
+   "tags": [
+    "recrutamento",
+    "sourcing",
+    "talentos",
+    "vagas",
+    "lgpd",
+    "pessoas e recrutamento",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-cacador-talentos-l6.svg",
+   "url": "bots/bot-cacador-talentos-l6.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-caminhos-apresentacao-l3",
+   "type": "bot",
+   "name": "Caminhos de Apresentação",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Descobre quem pode te apresentar a uma conta-alvo. Cruza CRM, conversas e sua rede para achar quem conhece a pessoa ou empresa que você quer alcançar, ordena os caminhos pela força da prova e escreve o pedido de apresentação.",
+   "category": "Vendas",
+   "tags": [
+    "vendas",
+    "networking",
+    "apresentacoes",
+    "relacionamento",
+    "crm",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-caminhos-apresentacao-l3.svg",
+   "url": "bots/bot-caminhos-apresentacao-l3.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-chefe-gabinete-familia-l3",
+   "type": "bot",
+   "name": "Chefe de Gabinete da Família",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Organiza a rotina da família: escola, agenda e casa. Transforma recados da escola, convites e e-mails em tarefas com dono e prazo, prepara resumos do dia e da semana e planeja passeios e viagens. Gasto, inscrição e mensagem só com o sim dos adultos.",
+   "category": "Pessoal",
+   "tags": [
+    "familia",
+    "escola",
+    "agenda",
+    "logistica",
+    "pessoal",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-chefe-gabinete-familia-l3.svg",
+   "url": "bots/bot-chefe-gabinete-familia-l3.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-coach-parcerias-l1",
+   "type": "bot",
+   "name": "Coach de Calls de Parceria",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Treinador de negociação em calls de parceria e patrocínio. Lê a transcrição real de cada call de parceria ou patrocínio e devolve acertos, ajustes e frases melhores, sempre ligados ao que foi dito. Acompanha a sua evolução de uma conversa para a outra.",
+   "category": "Vendas",
+   "tags": [
+    "coaching",
+    "parcerias",
+    "vendas",
+    "calls",
+    "negociação",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-coach-parcerias-l1.svg",
+   "url": "bots/bot-coach-parcerias-l1.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-coach-pitch-l1",
+   "type": "bot",
+   "name": "Coach de Pitch para Investidores",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Revisor de apresentação para captação de investimento. Lê o seu deck como um investidor leria, aponta o que convence e o que gera dúvida, separa fato de hipótese e monta um plano de ajustes por slide, sem criar números que você não deu.",
+   "category": "Vendas",
+   "tags": [
+    "pitch",
+    "captação",
+    "investidores",
+    "deck",
+    "startup",
+    "vendas",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-coach-pitch-l1.svg",
+   "url": "bots/bot-coach-pitch-l1.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-coach-reunioes-clientes-l4",
+   "type": "bot",
+   "name": "Treinador de Reuniões com Clientes",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Preparador e avaliador de reuniões com clientes. Antes da reunião, junta o contexto da conta numa página de preparo. Depois, lê a transcrição e devolve um feedback franco, com trechos como prova e um único exercício para a próxima vez.",
+   "category": "Vendas",
+   "tags": [
+    "reuniões",
+    "coaching",
+    "customer success",
+    "vendas",
+    "narrativa",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-coach-reunioes-clientes-l4.svg",
+   "url": "bots/bot-coach-reunioes-clientes-l4.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-conselheiro-bots-l4",
+   "type": "bot",
+   "name": "Conselheiro da Equipe de Bots",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Consultor de organização da equipe de bots. Planeja e revisa sua equipe de bots a partir dos resultados do negócio, com um responsável humano para cada coisa e sem sobreposição. Sugere sempre a menor mudança útil e não altera nada sem o seu sim.",
+   "category": "Operações",
+   "tags": [
+    "bots",
+    "governança",
+    "arquitetura",
+    "automação",
+    "operações",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-conselheiro-bots-l4.svg",
+   "url": "bots/bot-conselheiro-bots-l4.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-construtor-sites",
+   "type": "bot",
+   "name": "Construtor de Sites",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Código do site com as funcionalidades do ramo. Constrói o site a partir do plano, da direção visual e dos textos: componentes, funcionalidades do ramo funcionando, celular primeiro, SEO técnico e checagem anti-genérico.",
+   "category": "Sites",
+   "tags": [
+    "site",
+    "frontend",
+    "html",
+    "css",
+    "desempenho",
+    "sites",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-construtor-sites.svg",
+   "url": "bots/bot-construtor-sites.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-coordenador-recrutamento-l5",
+   "type": "bot",
+   "name": "Coordenador de Recrutamento",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Coordenação de entrevistas e processos seletivos. Monta a agenda das entrevistas, prepara quem vai entrevistar, aponta processos parados e organiza o fechamento de cada vaga, com contato a candidato só depois do seu sim.",
+   "category": "Pessoas e Recrutamento",
+   "tags": [
+    "recrutamento",
+    "entrevistas",
+    "agenda",
+    "rh",
+    "pessoas e recrutamento",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-coordenador-recrutamento-l5.svg",
+   "url": "bots/bot-coordenador-recrutamento-l5.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-cortes-destaques-l4",
+   "type": "bot",
+   "name": "Cortador de Destaques em Vídeo",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Garimpeiro de trechos para vídeos curtos. Escuta gravações longas, encontra os trechos que funcionam sozinhos e entrega clipes curtos com legenda na tela, arquivo .srt e o minuto exato de onde cada um saiu.",
+   "category": "Marketing",
+   "tags": [
+    "vídeo",
+    "cortes",
+    "legendas",
+    "podcast",
+    "conteúdo",
+    "marketing",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-cortes-destaques-l4.svg",
+   "url": "bots/bot-cortes-destaques-l4.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-critica-design-l1",
+   "type": "bot",
+   "name": "Crítica de Design de Telas",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Revisor de telas de produto e usabilidade. Recebe captura, frame exportado do Figma ou URL e aponta onde quem usa vai travar, do problema mais grave ao mais leve, com a correção de cada um. Não edita seus arquivos de design.",
+   "category": "Design",
+   "tags": [
+    "design",
+    "ux",
+    "acessibilidade",
+    "crítica",
+    "interface",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-critica-design-l1.svg",
+   "url": "bots/bot-critica-design-l1.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-critico-landing-l1",
+   "type": "bot",
+   "name": "Crítico de Copy de Landing Page",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Revisor de clareza do texto de páginas de venda. Lê suas páginas de venda como alguém que nunca viu o produto, dá nota para o que é, para quem é e o que fazer, e sugere até três trocas de texto por página. Não altera o site.",
+   "category": "Marketing",
+   "tags": [
+    "copywriting",
+    "landing page",
+    "conversão",
+    "marketing",
+    "revisão",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-critico-landing-l1.svg",
+   "url": "bots/bot-critico-landing-l1.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-diario-plantas-l5",
+   "type": "bot",
+   "name": "Diário de Cuidados com Plantas",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Caderno das plantas de casa. Anota rega, adubo, troca de vaso e o que você observou em cada planta da casa, gera um caderno para abrir no navegador e manda um lembrete por semana com a previsão do tempo.",
+   "category": "Pessoal",
+   "tags": [
+    "plantas",
+    "jardinagem",
+    "diário",
+    "lembretes",
+    "pessoal",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-diario-plantas-l5.svg",
+   "url": "bots/bot-diario-plantas-l5.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-diretor-arte-jogo-l2",
+   "type": "bot",
+   "name": "Diretor de Arte de Jogo",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Direção de arte para jogos: estilo, paleta e sprites. Define o estilo visual e a paleta do seu jogo, escreve prompts para sua ferramenta de imagem, especifica sprites e tiles, recorta folhas de sprite e confere cada arte contra o padrão.",
+   "category": "Design",
+   "tags": [
+    "arte de jogo",
+    "pixel art",
+    "sprites",
+    "paleta",
+    "design",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-diretor-arte-jogo-l2.svg",
+   "url": "bots/bot-diretor-arte-jogo-l2.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-diretor-arte-web",
+   "type": "bot",
+   "name": "Diretor de Arte Web",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Identidade visual de site tirada do próprio negócio. Cria a direção visual do site (cores, fontes, fotos, detalhes e layout) a partir do que o negócio já tem e revisa as telas para cortar a cara de modelo pronto.",
+   "category": "Sites",
+   "tags": [
+    "site",
+    "design",
+    "identidade-visual",
+    "ui",
+    "tipografia",
+    "sites",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-diretor-arte-web.svg",
+   "url": "bots/bot-diretor-arte-web.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-diretor-video-l2",
+   "type": "bot",
+   "name": "Diretor de Vídeo",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Do briefing ao vídeo curto pronto para postar. Escolhe o formato, escreve roteiro e plano de filmagem, prepara os prompts para sua ferramenta de imagem e cuida de corte, legenda, narração e exportação do vídeo final.",
+   "category": "Marketing",
+   "tags": [
+    "vídeo",
+    "roteiro",
+    "edição",
+    "produção de conteúdo",
+    "marketing",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-diretor-video-l2.svg",
+   "url": "bots/bot-diretor-video-l2.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-duvidas-documentacao-l2",
+   "type": "bot",
+   "name": "Balcão de Dúvidas da Documentação",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Respostas sobre o produto com link para o manual. Tira dúvidas sobre o produto lendo a documentação pública na hora e, se faltar algo, as fontes internas do time. Toda resposta diz de onde veio e aponta buracos no manual.",
+   "category": "Operações",
+   "tags": [
+    "documentação",
+    "suporte interno",
+    "base de conhecimento",
+    "perguntas e respostas",
+    "operações",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-duvidas-documentacao-l2.svg",
+   "url": "bots/bot-duvidas-documentacao-l2.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-editor-site-pessoal-l2",
+   "type": "bot",
+   "name": "Editor do Site Pessoal e Newsletter",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Artigos, resumo diário e newsletter do seu site. Converte transcrições de vídeos longos em artigos para o seu site, mantém um resumo do dia e prepara a newsletter. Só acrescenta conteúdo e pede sua aprovação antes de publicar ou enviar.",
+   "category": "Pessoal",
+   "tags": [
+    "site pessoal",
+    "newsletter",
+    "conteúdo",
+    "markdown",
+    "publicação",
+    "pessoal",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-editor-site-pessoal-l2.svg",
+   "url": "bots/bot-editor-site-pessoal-l2.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-editor-videos-verticais-l3",
+   "type": "bot",
+   "name": "Editor de Vídeos Verticais",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Edita vídeos curtos verticais de quem fala para a câmera. Do material bruto ao vídeo vertical pronto: escolhe as melhores tomadas, legenda a fala real, coloca imagem de apoio e música licenciada. Mostra o plano antes e confere tudo no final.",
+   "category": "Marketing",
+   "tags": [
+    "video",
+    "edicao",
+    "reels",
+    "legendas",
+    "redes-sociais",
+    "marketing",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-editor-videos-verticais-l3.svg",
+   "url": "bots/bot-editor-videos-verticais-l3.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-empacotador-api-mcp-l4",
+   "type": "bot",
+   "name": "Empacotador de APIs em MCP",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Construtor de servidores MCP a partir de APIs. Pega a documentação de uma API e devolve um servidor MCP testado de verdade, com skill de uso, README e exemplo de configuração. Segredos ficam em variável de ambiente e nada é publicado sem a sua aprovação.",
+   "category": "Engenharia",
+   "tags": [
+    "mcp",
+    "api",
+    "integração",
+    "skills",
+    "engenharia",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-empacotador-api-mcp-l4.svg",
+   "url": "bots/bot-empacotador-api-mcp-l4.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-engenheiro-plantao-l2",
+   "type": "bot",
+   "name": "Engenheiro de Software de Plantão",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Código com teste, fila de issues e erros de produção. Faz mudanças em branch separada com os testes rodados de verdade, organiza as issues novas do GitHub e investiga os erros do Sentry. Mostra o plano antes e deixa o merge com você.",
+   "category": "Engenharia",
+   "tags": [
+    "engenharia",
+    "github",
+    "sentry",
+    "triagem",
+    "código",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-engenheiro-plantao-l2.svg",
+   "url": "bots/bot-engenheiro-plantao-l2.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-especificador-telas-l6",
+   "type": "bot",
+   "name": "Especificador de Telas e Design System",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Detalha telas para o dev e confere o design system. Para quem programa a partir de design: transforma imagem, exportação ou link de uma tela em especificação com medidas, gera telas novas a partir de um pedido e encontra inconsistências em componentes, tokens e animações.",
+   "category": "Design",
+   "tags": [
+    "design",
+    "design-system",
+    "tokens",
+    "especificacao",
+    "frontend",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-especificador-telas-l6.svg",
+   "url": "bots/bot-especificador-telas-l6.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-estacionamento-rodizio-l4",
+   "type": "bot",
+   "name": "Guia de Estacionamento e Rodízio",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Alerta de rodízio, feira e varrição na rua. Consulta os dados abertos da prefeitura e avisa quando a rua onde você para o carro terá varrição, feira livre, rodízio ou outra restrição publicada. Nunca garante que a vaga está liberada.",
+   "category": "Pessoal",
+   "tags": [
+    "estacionamento",
+    "rodízio",
+    "trânsito",
+    "dados abertos",
+    "cidade",
+    "pessoal",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-estacionamento-rodizio-l4.svg",
+   "url": "bots/bot-estacionamento-rodizio-l4.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-estrategista-site",
+   "type": "bot",
+   "name": "Estrategista de Site",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Ficha do negócio, páginas e funcionalidades do ramo. Começa pelo negócio, não pelo layout: monta a ficha, escolhe as funcionalidades que o ramo exige e desenha o mapa de páginas para o site não sair genérico.",
+   "category": "Sites",
+   "tags": [
+    "site",
+    "landing-page",
+    "estrategia",
+    "funcionalidades",
+    "ux",
+    "sites",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-estrategista-site.svg",
+   "url": "bots/bot-estrategista-site.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-executivo-contas-l3",
+   "type": "bot",
+   "name": "Executivo de Contas Completo",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Cuida do cliente da primeira conversa até a renovação. Prepara abordagens no seu tom, reuniões e follow-ups, propostas, ativação, respostas de suporte e cobrança e sinais de expansão. Tudo fica em rascunho até você aprovar cada envio.",
+   "category": "Vendas",
+   "tags": [
+    "vendas",
+    "contas",
+    "propostas",
+    "customer-success",
+    "follow-up",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-executivo-contas-l3.svg",
+   "url": "bots/bot-executivo-contas-l3.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-fechador-pendencias-l4",
+   "type": "bot",
+   "name": "Fechador de Pendências Comerciais",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Caçador de promessas esquecidas com clientes. Varre reuniões, e-mails, Slack e CRM atrás do que foi combinado com clientes e ficou sem fazer. Mostra a prova de cada item e deixa pronta a resposta, a tarefa ou o ajuste no CRM para você aprovar.",
+   "category": "Vendas",
+   "tags": [
+    "vendas",
+    "follow-up",
+    "crm",
+    "pendências",
+    "clientes",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-fechador-pendencias-l4.svg",
+   "url": "bots/bot-fechador-pendencias-l4.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-followup-reunioes-l1",
+   "type": "bot",
+   "name": "Follow-up de Reuniões de Venda",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Assistente de retorno pós-reunião e atualização do CRM. Lê a transcrição de cada reunião de venda e prepara o e-mail de retorno no seu tom, os próximos passos com dono e data e as mudanças sugeridas no HubSpot. Nada sai sem a sua aprovação.",
+   "category": "Vendas",
+   "tags": [
+    "vendas",
+    "follow-up",
+    "crm",
+    "reuniões",
+    "hubspot",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-followup-reunioes-l1.svg",
+   "url": "bots/bot-followup-reunioes-l1.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-gerente-projetos-l1",
+   "type": "bot",
+   "name": "Gerente de Projetos do Time",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Organizador de projetos e repasse de tarefas aos bots. Mantém o quadro de projetos e tarefas do time no Notion, divide cada projeto em entregas pequenas, repassa cada uma ao bot certo e avisa quando algo empaca. Você decide; ele organiza.",
+   "category": "Operações",
+   "tags": [
+    "gestão de projetos",
+    "notion",
+    "coordenação",
+    "bots",
+    "tarefas",
+    "operações",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-gerente-projetos-l1.svg",
+   "url": "bots/bot-gerente-projetos-l1.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-gerente-projetos-marketing-l5",
+   "type": "bot",
+   "name": "Gerente de Projetos de Marketing",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Gestão de campanhas e lançamentos até o prazo. Organiza a campanha ou o lançamento em frentes com dono e prazo, acompanha o andamento com prints do que já existe e traz para você cada decisão de publicar ou gastar.",
+   "category": "Marketing",
+   "tags": [
+    "marketing",
+    "gestão de projetos",
+    "lançamento",
+    "campanha",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-gerente-projetos-marketing-l5.svg",
+   "url": "bots/bot-gerente-projetos-marketing-l5.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-hospitalidade-vip-l4",
+   "type": "bot",
+   "name": "Planejador de Hospitalidade VIP",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Coordenador de convidados VIP em eventos. Organiza a parte operacional da hospitalidade VIP em eventos: plano por evento, planilhas de indicação, painel de status, pautas e apresentações. Mantém notas privadas fora das páginas compartilhadas.",
+   "category": "Operações",
+   "tags": [
+    "eventos",
+    "hospitalidade",
+    "vip",
+    "marketing",
+    "status",
+    "operações",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-hospitalidade-vip-l4.svg",
+   "url": "bots/bot-hospitalidade-vip-l4.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-icone-perfil-l6",
+   "type": "bot",
+   "name": "Criador de Ícone de Perfil",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Vira sua foto ou a do seu pet num mascote simples. Cria um personagem minimalista para foto de perfil a partir de uma imagem sua ou do seu bicho, levando cabelo, cores e até três detalhes marcantes. Se a foto não mostra o suficiente, pede outra. Nada de retrato realista.",
+   "category": "Pessoal",
+   "tags": [
+    "avatar",
+    "imagem",
+    "perfil",
+    "pessoal",
+    "ilustracao",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-icone-perfil-l6.svg",
+   "url": "bots/bot-icone-perfil-l6.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-inspetor-negocios-l5",
+   "type": "bot",
+   "name": "Inspetor de Qualificação de Negócios",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Checagem de qualificação no funil de vendas. Revisa os negócios que trocaram de etapa no funil, procura nas ligações a prova de cada critério de qualificação e indica avançar, encerrar ou buscar mais dados.",
+   "category": "Vendas",
+   "tags": [
+    "vendas",
+    "funil",
+    "qualificação",
+    "crm",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-inspetor-negocios-l5.svg",
+   "url": "bots/bot-inspetor-negocios-l5.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-jornal-manha-l2",
+   "type": "bot",
+   "name": "Jornal da Manhã Pessoal",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Jornal matinal com sua agenda, e-mails e notícias. Toda manhã reúne seus compromissos, os e-mails que precisam de resposta e notícias dos temas que você segue num jornal de uma ou duas páginas em PDF, pronto para ler ou imprimir.",
+   "category": "Pessoal",
+   "tags": [
+    "jornal",
+    "agenda",
+    "e-mail",
+    "rotina matinal",
+    "pessoal",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-jornal-manha-l2.svg",
+   "url": "bots/bot-jornal-manha-l2.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-lider-engenharia-l6",
+   "type": "bot",
+   "name": "Líder de Engenharia",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Coordena frentes de código, PRs e CI até a entrega. Divide um objetivo em frentes para subagentes e bots, vigia CI, revisões e bloqueios e só interrompe você quando algo depende de você, quando um PR pode ser integrado ou quando uma frente termina.",
+   "category": "Engenharia",
+   "tags": [
+    "engenharia",
+    "pull-requests",
+    "ci",
+    "orquestracao",
+    "swarm",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-lider-engenharia-l6.svg",
+   "url": "bots/bot-lider-engenharia-l6.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-ligacoes-voz-l3",
+   "type": "bot",
+   "name": "Ligações por Voz com IA",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Liga por telefone em seu nome para tarefas pontuais. Usa um serviço de voz com IA para fazer as ligações que você pedir, como marcar horário ou confirmar reserva, e depois conta o resultado. Confirma número, objetivo e custo antes de discar.",
+   "category": "Pessoal",
+   "tags": [
+    "telefone",
+    "voz",
+    "assistente-pessoal",
+    "agendamento",
+    "api",
+    "pessoal",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-ligacoes-voz-l3.svg",
+   "url": "bots/bot-ligacoes-voz-l3.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-lista-prospeccao-l6",
+   "type": "bot",
+   "name": "Montador de Listas de Prospecção",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Monta listas de prospecção a partir do seu cliente ideal. Parte da descrição do seu cliente ideal e chega a uma planilha de empresas e pessoas, sem duplicados e sem atropelar quem já atende cada conta, com rascunhos de e-mail e LinkedIn para você aprovar.",
+   "category": "Vendas",
+   "tags": [
+    "prospeccao",
+    "icp",
+    "listas",
+    "vendas",
+    "deduplicacao",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-lista-prospeccao-l6.svg",
+   "url": "bots/bot-lista-prospeccao-l6.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-marketing-produto-l3",
+   "type": "bot",
+   "name": "Marketing de Produto",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Posiciona seu produto e escreve textos que vendem. Estuda produto, marca, público e concorrentes, mantém por escrito o posicionamento e a voz da marca e escreve páginas, anúncios e e-mails coerentes com eles, sem inventar números.",
+   "category": "Marketing",
+   "tags": [
+    "marketing",
+    "posicionamento",
+    "copywriting",
+    "anuncios",
+    "marca",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-marketing-produto-l3.svg",
+   "url": "bots/bot-marketing-produto-l3.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-mesa-edicao-video-l4",
+   "type": "bot",
+   "name": "Mesa de Edição de Vídeo",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Editor de vídeo local para cortes e formatos. Edita vídeos no seu computador: corta, gera clipes, ajusta o tamanho para cada rede, coloca legenda e entrega transcrição. Cada versão vira um arquivo novo e o original fica intacto.",
+   "category": "Design",
+   "tags": [
+    "vídeo",
+    "edição",
+    "legendas",
+    "redes sociais",
+    "ffmpeg",
+    "design",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-mesa-edicao-video-l4.svg",
+   "url": "bots/bot-mesa-edicao-video-l4.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-mesa-pesquisa-contas-l5",
+   "type": "bot",
+   "name": "Mesa de Pesquisa de Contas",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Dossiê das contas para quem vende. Levanta na web aberta e nas suas anotações o que importa sobre as empresas que você atende e prepara briefing de ligação, mapa de quem decide e plano da conta, com fonte e data.",
+   "category": "Vendas",
+   "tags": [
+    "vendas",
+    "pesquisa de contas",
+    "briefing",
+    "plano de conta",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-mesa-pesquisa-contas-l5.svg",
+   "url": "bots/bot-mesa-pesquisa-contas-l5.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-mesa-stills-clipes-l3",
+   "type": "bot",
+   "name": "Mesa de Stills e Clipes",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Tira quadros, miniaturas e cortes das suas gravações. Gera stills, miniaturas, clipes curtos e prints limpos a partir de vídeos que você já tem, no tamanho de cada destino, com legenda e texto alternativo, sem tocar no arquivo original.",
+   "category": "Marketing",
+   "tags": [
+    "video",
+    "imagens",
+    "miniaturas",
+    "clipes",
+    "acessibilidade",
+    "marketing",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-mesa-stills-clipes-l3.svg",
+   "url": "bots/bot-mesa-stills-clipes-l3.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-migrador-ia-l1",
+   "type": "bot",
+   "name": "Migrador de Configurações de IA",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Importador de configurações vindas de outras IAs. Lê instruções, memórias, projetos e rotinas que você criou em outros assistentes de IA e transforma tudo em bots do Progress Code prontos para importar, sem levar senhas nem chaves.",
+   "category": "Pessoal",
+   "tags": [
+    "migração",
+    "configuração",
+    "bots",
+    "memória",
+    "importação",
+    "pessoal",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-migrador-ia-l1.svg",
+   "url": "bots/bot-migrador-ia-l1.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-montador-ebr-valor-l5",
+   "type": "bot",
+   "name": "Montador de EBR e Deck de Valor",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Apresentações de resultado para clientes. Reúne CRM, anotações de reuniões e números de uso de uma conta e monta a apresentação de revisão executiva em .pptx editável, com a origem de cada número anotada.",
+   "category": "Vendas",
+   "tags": [
+    "vendas",
+    "ebr",
+    "apresentação",
+    "customer success",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-montador-ebr-valor-l5.svg",
+   "url": "bots/bot-montador-ebr-valor-l5.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-negociador-saas-l6",
+   "type": "bot",
+   "name": "Negociador de Assinaturas SaaS",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Corta gastos com software e prepara contrapropostas. Descobre quanto a empresa paga em cada software, aponta onde dá para pagar menos com números que se sustentam e deixa pronta a contraproposta ao fornecedor para você revisar. Nenhum envio acontece sem sua ordem.",
+   "category": "Operações",
+   "tags": [
+    "compras",
+    "saas",
+    "custos",
+    "negociacao",
+    "operacoes",
+    "operações",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-negociador-saas-l6.svg",
+   "url": "bots/bot-negociador-saas-l6.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-operacoes-escritorio-l1",
+   "type": "bot",
+   "name": "Mesa de Operações do Escritório",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Assistente de rotina administrativa do escritório. Controla encomendas, chamados de manutenção, preparação de novos colaboradores e datas do time, e escreve os resumos. Usa planilha ou lista colada e não envia nada sem a sua aprovação.",
+   "category": "Operações",
+   "tags": [
+    "operações",
+    "escritório",
+    "encomendas",
+    "manutenção",
+    "comemorações",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-operacoes-escritorio-l1.svg",
+   "url": "bots/bot-operacoes-escritorio-l1.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-operador-distribuicao-l4",
+   "type": "bot",
+   "name": "Operador de Distribuição",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Gestor de marketing e divulgação do produto. Cuida da divulgação do seu produto de ponta a ponta: lê os números dos canais, sugere ajustes, cria rascunhos de anúncios e posts, garimpa temas e toca a prospecção. Verba e publicação só com o seu sim.",
+   "category": "Marketing",
+   "tags": [
+    "marketing",
+    "campanhas",
+    "criativos",
+    "growth",
+    "prospecção",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-operador-distribuicao-l4.svg",
+   "url": "bots/bot-operador-distribuicao-l4.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-operador-site-l2",
+   "type": "bot",
+   "name": "Operador do Site",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Ajustes no site via pull request e auditorias com prova. Altera o site direto no repositório e entrega cada mudança como pull request com fotos de antes e depois. Também audita SEO, velocidade, acessibilidade e conversão com evidência.",
+   "category": "Marketing",
+   "tags": [
+    "site",
+    "seo",
+    "acessibilidade",
+    "pull request",
+    "auditoria",
+    "marketing",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-operador-site-l2.svg",
+   "url": "bots/bot-operador-site-l2.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-otimizador-cartoes-l3",
+   "type": "bot",
+   "name": "Estrategista de Cartões e Benefícios",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Indica o melhor cartão e vigia benefícios que vencem. Diz qual dos seus cartões rende mais em cada compra segundo sua prioridade, lembra créditos e benefícios antes do prazo e mostra assinaturas que renderiam mais em outro cartão.",
+   "category": "Pessoal",
+   "tags": [
+    "financas-pessoais",
+    "cartao-de-credito",
+    "pontos",
+    "milhas",
+    "beneficios",
+    "pessoal",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-otimizador-cartoes-l3.svg",
+   "url": "bots/bot-otimizador-cartoes-l3.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-paginas-eventos-l3",
+   "type": "bot",
+   "name": "Páginas de Eventos",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Monta e mantém páginas de inscrição de eventos. Cria rascunhos privados de páginas de inscrição para eventos presenciais e VIP, com texto, visual, perguntas, vagas e lista de espera, e organiza a lista de inscritos. Publicar só com seu OK.",
+   "category": "Marketing",
+   "tags": [
+    "eventos",
+    "marketing",
+    "inscricoes",
+    "notion",
+    "operacoes",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-paginas-eventos-l3.svg",
+   "url": "bots/bot-paginas-eventos-l3.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-pedidos-eventos-l2",
+   "type": "bot",
+   "name": "Mesa de Pedidos de Eventos",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Fila de convites, patrocínios e palestras com nota. Coloca cada convite de evento, pedido de patrocínio ou palestra numa fila, avalia pelas suas regras, sugere sim, não ou agora não e deixa a resposta escrita para você mandar.",
+   "category": "Operações",
+   "tags": [
+    "eventos",
+    "patrocínio",
+    "palestras",
+    "triagem",
+    "operações",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-pedidos-eventos-l2.svg",
+   "url": "bots/bot-pedidos-eventos-l2.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-pesquisa-checagem-l2",
+   "type": "bot",
+   "name": "Mesa de Pesquisa e Checagem",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Checagem de fatos com fonte, data e veredito. Busca na internet na hora, confere cada afirmação em mais de uma fonte e devolve um veredito com link e data. Atende você e também os outros bots do time.",
+   "category": "Operações",
+   "tags": [
+    "pesquisa",
+    "checagem de fatos",
+    "fontes",
+    "web",
+    "operações",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-pesquisa-checagem-l2.svg",
+   "url": "bots/bot-pesquisa-checagem-l2.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-pesquisa-contas-l1",
+   "type": "bot",
+   "name": "Pesquisador de Contas Estratégicas",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Analista de contas para preparar reuniões importantes. Estuda uma conta a fundo antes da reunião: mudanças na empresa, quem decide, histórico do relacionamento e perguntas em aberto. Cada informação vem com fonte e data, e o que falta fica marcado.",
+   "category": "Vendas",
+   "tags": [
+    "vendas",
+    "pesquisa de contas",
+    "stakeholders",
+    "reunião",
+    "b2b",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-pesquisa-contas-l1.svg",
+   "url": "bots/bot-pesquisa-contas-l1.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-pm-recorte-escopo-l3",
+   "type": "bot",
+   "name": "PM de Recorte de Escopo",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Define o que entra, o que fica fora e como provar. Faz o papel de gerente de produto: escreve um recorte de escopo com data, critérios de aceite com a prova exigida e ordem de liberação. Nada vai para a engenharia sem a sua aprovação.",
+   "category": "Produto",
+   "tags": [
+    "produto",
+    "prd",
+    "escopo",
+    "criterios-de-aceite",
+    "planejamento",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-pm-recorte-escopo-l3.svg",
+   "url": "bots/bot-pm-recorte-escopo-l3.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-produtor-eventos-l5",
+   "type": "bot",
+   "name": "Produtor de Eventos",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Organização de eventos do plano ao balanço. Cuida do seu evento de ponta a ponta: briefing, programação, fornecedores, convidados com restrições e viagens, checklist do dia e balanço final, sem contatar ninguém sem você.",
+   "category": "Operações",
+   "tags": [
+    "eventos",
+    "produção",
+    "convidados",
+    "fornecedores",
+    "operações",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-produtor-eventos-l5.svg",
+   "url": "bots/bot-produtor-eventos-l5.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-projetista-bots-l5",
+   "type": "bot",
+   "name": "Projetista de Bots",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Criação de bots enxutos para o Progress Code. Com poucas perguntas, define um único trabalho para o bot e gera o modelo pronto para importar: instruções claras, limites ditos com todas as letras e só as ferramentas necessárias.",
+   "category": "Produto",
+   "tags": [
+    "bots",
+    "design de agentes",
+    "prompts",
+    "produto",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-projetista-bots-l5.svg",
+   "url": "bots/bot-projetista-bots-l5.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-prospeccao-outbound-l3",
+   "type": "bot",
+   "name": "Prospecção Outbound",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Acha prospects com fonte e escreve a primeira abordagem. Encontra na web pública pessoas com o perfil do seu cliente ideal, registra cada fato com link, classifica o encaixe e rascunha a primeira mensagem e as retomadas. Você decide o que sai.",
+   "category": "Vendas",
+   "tags": [
+    "vendas",
+    "prospeccao",
+    "outbound",
+    "pesquisa",
+    "cold-email",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-prospeccao-outbound-l3.svg",
+   "url": "bots/bot-prospeccao-outbound-l3.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-prototipador-l1",
+   "type": "bot",
+   "name": "Prototipador de Ideias",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Criador de protótipos navegáveis dentro do app real. Pega uma ideia de recurso e monta um protótipo clicável no seu próprio app, em branch separado, com capturas e um vídeo curto para mostrar ao time. A produção fica intocada.",
+   "category": "Produto",
+   "tags": [
+    "protótipo",
+    "produto",
+    "frontend",
+    "pull request",
+    "ideias",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-prototipador-l1.svg",
+   "url": "bots/bot-prototipador-l1.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-pulso-30-dias-l6",
+   "type": "bot",
+   "name": "Pulso dos Últimos 30 Dias",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "O que falaram de um assunto no último mês, com fontes. Escolha um assunto e receba o que as pessoas comentaram nos últimos 30 dias em fóruns, redes, vídeos, GitHub, notícias e blogs, separado em fato, opinião e boato, com link e data de cada informação.",
+   "category": "Marketing",
+   "tags": [
+    "pesquisa",
+    "tendencias",
+    "redes-sociais",
+    "marketing",
+    "monitoramento",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-pulso-30-dias-l6.svg",
+   "url": "bots/bot-pulso-30-dias-l6.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-qa-de-entrega-l5",
+   "type": "bot",
+   "name": "QA de Entrega",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Testes de aceite antes de liberar a entrega. Converte o escopo aprovado em critérios verificáveis, testa no ambiente que está no ar com captura de tela e fecha cada rodada com um status claro: aprovado, reprovado ou bloqueado.",
+   "category": "Engenharia",
+   "tags": [
+    "qa",
+    "testes de aceite",
+    "deploy",
+    "qualidade",
+    "engenharia",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-qa-de-entrega-l5.svg",
+   "url": "bots/bot-qa-de-entrega-l5.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-qa-diario-produto-l2",
+   "type": "bot",
+   "name": "QA Diário do Produto",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Passada diária no produto: novidades, sumiços e bugs. Usa uma conta de teste para navegar no seu produto a cada dia útil e conta o que apareceu, o que sumiu, o que deu erro (com passos e capturas) e o que precisa da sua decisão.",
+   "category": "Produto",
+   "tags": [
+    "qa",
+    "testes",
+    "produto",
+    "bugs",
+    "regressão",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-qa-diario-produto-l2.svg",
+   "url": "bots/bot-qa-diario-produto-l2.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-radar-marketing-concorrencia-l4",
+   "type": "bot",
+   "name": "Radar de Marketing da Concorrência",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Observador do marketing dos concorrentes. Lê o que os concorrentes mostram em público (site, anúncios, preços, conteúdo) e compara com o seu marketing. Entrega um boletim com provas e sugestões de resposta, sem interagir com ninguém.",
+   "category": "Marketing",
+   "tags": [
+    "concorrência",
+    "marketing",
+    "posicionamento",
+    "anúncios",
+    "inteligência",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-radar-marketing-concorrencia-l4.svg",
+   "url": "bots/bot-radar-marketing-concorrencia-l4.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-radar-sinais-l6",
+   "type": "bot",
+   "name": "Radar de Sinais de Compra",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Aponta contas com sinal de compra e sugere a abordagem. Descobre quais contas deram sinais recentes de interesse (cadastro, teste grátis, visita à página de preços, contratação, investimento), separa por tipo de venda e prepara a primeira mensagem para o responsável aprovar.",
+   "category": "Vendas",
+   "tags": [
+    "prospeccao",
+    "intencao-de-compra",
+    "crm",
+    "vendas",
+    "outbound",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-radar-sinais-l6.svg",
+   "url": "bots/bot-radar-sinais-l6.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-recap-reuniao-l6",
+   "type": "bot",
+   "name": "Recapitulador de Reuniões",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Monta o resumo da reunião em slides no seu modelo. Recebe anotações, transcrição ou áudio de uma reunião e devolve um resumo em slides no seu modelo, com as falas fiéis do cliente e os próximos passos com responsável e prazo. Fala inventada nunca entra.",
+   "category": "Vendas",
+   "tags": [
+    "reunioes",
+    "vendas",
+    "apresentacao",
+    "recap",
+    "proximos-passos",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-recap-reuniao-l6.svg",
+   "url": "bots/bot-recap-reuniao-l6.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-redator-paginas",
+   "type": "bot",
+   "name": "Redator de Páginas",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Textos de site e landing page que vendem. Escreve os textos de cada seção do site com a voz do negócio: título com resultado, prova logo depois, objeções respondidas e chamada para ação nos pontos certos.",
+   "category": "Sites",
+   "tags": [
+    "site",
+    "copy",
+    "landing-page",
+    "conversao",
+    "texto",
+    "sites",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-redator-paginas.svg",
+   "url": "bots/bot-redator-paginas.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-relatorios-midia-paga-l2",
+   "type": "bot",
+   "name": "Relatórios de Mídia Paga",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Relatório único de anúncios a partir das planilhas. Junta as exportações do Google Ads, Meta, LinkedIn e outras plataformas num só relatório com fórmulas fixas e comentário, e prepara respostas para os pedidos de número do time.",
+   "category": "Marketing",
+   "tags": [
+    "mídia paga",
+    "anúncios",
+    "relatório",
+    "métricas",
+    "marketing",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-relatorios-midia-paga-l2.svg",
+   "url": "bots/bot-relatorios-midia-paga-l2.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-respostas-produto-l3",
+   "type": "bot",
+   "name": "Respostas de Produto ao Cliente",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Rascunha respostas a clientes com base na documentação. Você cola a dúvida do cliente; ele procura a resposta na documentação pública do produto e devolve um rascunho na sua voz, com o link da página usada e notas internas à parte.",
+   "category": "Vendas",
+   "tags": [
+    "suporte",
+    "atendimento",
+    "documentacao",
+    "rascunhos",
+    "clientes",
+    "vendas",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-respostas-produto-l3.svg",
+   "url": "bots/bot-respostas-produto-l3.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-resumo-x-l2",
+   "type": "bot",
+   "name": "Resumo Diário do X",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Resumo diário das contas e temas que você segue no X. Lê as contas, assuntos e buscas que você escolher no X e entrega todo dia um resumo enxuto, separado por tema e com link em cada item. Não publica nada em seu nome.",
+   "category": "Marketing",
+   "tags": [
+    "x",
+    "twitter",
+    "redes sociais",
+    "monitoramento",
+    "resumo",
+    "marketing",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-resumo-x-l2.svg",
+   "url": "bots/bot-resumo-x-l2.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-revisor-apple-search-ads-l5",
+   "type": "bot",
+   "name": "Revisor de Apple Search Ads",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Revisão de anúncios de busca da App Store. Lê os relatórios exportados da sua conta de anúncios da App Store, compara o custo por instalação com a meta e lista ajustes de palavras, lances e verba para você aplicar.",
+   "category": "Marketing",
+   "tags": [
+    "marketing",
+    "apple search ads",
+    "mídia paga",
+    "custo por instalação",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-revisor-apple-search-ads-l5.svg",
+   "url": "bots/bot-revisor-apple-search-ads-l5.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-revisor-texto-voz-l5",
+   "type": "bot",
+   "name": "Revisor de Texto com Voz Própria",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Edição de textos que soam humanos. Revisa e reescreve e-mails, posts, páginas e artigos no seu jeito de escrever, tira o tom robótico, aponta o que mudou e por quê, e nunca acrescenta fato que não estava lá.",
+   "category": "Marketing",
+   "tags": [
+    "copywriting",
+    "edição",
+    "voz da marca",
+    "texto",
+    "marketing",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-revisor-texto-voz-l5.svg",
+   "url": "bots/bot-revisor-texto-voz-l5.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-revisor-textos-l6",
+   "type": "bot",
+   "name": "Revisor e Redator de Textos",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Escreve e revisa seus textos sem trocar sua voz. Ajuda a começar um texto do zero ou a deixar claro um rascunho pronto: e-mail, artigo, proposta, documentação, discurso. Organiza as ideias e limpa as frases, mantendo fatos, sentido e o seu jeito de escrever.",
+   "category": "Marketing",
+   "tags": [
+    "escrita",
+    "revisao",
+    "textos",
+    "comunicacao",
+    "marketing",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-revisor-textos-l6.svg",
+   "url": "bots/bot-revisor-textos-l6.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-robos-domesticos-l4",
+   "type": "bot",
+   "name": "Assistente de Robôs da Casa",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Cuidador dos robôs da casa. Ajuda a instalar, manter e resolver problemas de aspiradores, cortadores de grama e outros robôs domésticos, e envia comandos pelo Home Assistant da sua rede só depois de checar que a área está livre.",
+   "category": "Pessoal",
+   "tags": [
+    "casa",
+    "robôs",
+    "home assistant",
+    "manutenção",
+    "automação",
+    "pessoal",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-robos-domesticos-l4.svg",
+   "url": "bots/bot-robos-domesticos-l4.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-saude-pessoal-l6",
+   "type": "bot",
+   "name": "Diretor de Saúde Pessoal",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Confere seu treino todo dia e refaz a semana se falhar. Mantém seu plano de treino da semana, pergunta todo dia se você treinou e, quando não deu, redistribui as sessões que faltam. Usa os dados que você exporta de apps e relógios. Não diagnostica nem receita nada.",
+   "category": "Pessoal",
+   "tags": [
+    "saude",
+    "treino",
+    "habitos",
+    "pessoal",
+    "rotina",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-saude-pessoal-l6.svg",
+   "url": "bots/bot-saude-pessoal-l6.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-saude-pipeline-l4",
+   "type": "bot",
+   "name": "Monitor de Pipeline e Previsão",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Vigia da carteira de vendas e da previsão. Olha todos os negócios abertos, aponta o que andou, o que parou e o que ameaça a previsão de vendas, e deixa as correções do CRM prontas para você aprovar uma a uma.",
+   "category": "Vendas",
+   "tags": [
+    "pipeline",
+    "forecast",
+    "crm",
+    "vendas",
+    "revops",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-saude-pipeline-l4.svg",
+   "url": "bots/bot-saude-pipeline-l4.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-seo-pautas-l2",
+   "type": "bot",
+   "name": "Mesa de SEO e Pautas",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Ideias de conteúdo e briefings guiados por busca. Descobre o que seu público procura no Google e pergunta aos assistentes de IA, põe as ideias de página em ordem e escreve briefings claros para o redator. O texto final fica com ele.",
+   "category": "Marketing",
+   "tags": [
+    "seo",
+    "conteúdo",
+    "palavras-chave",
+    "briefing",
+    "marketing",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-seo-pautas-l2.svg",
+   "url": "bots/bot-seo-pautas-l2.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-sequencias-prospeccao-l4",
+   "type": "bot",
+   "name": "Montador de Sequências de Prospecção",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Assistente de cadências de prospecção. Controla suas cadências de prospecção em uma planilha, escreve cada contato no seu estilo e para o perfil de cliente certo, e deixa tudo em rascunho. Quem decide e envia é você.",
+   "category": "Vendas",
+   "tags": [
+    "prospecção",
+    "outbound",
+    "vendas",
+    "cadência",
+    "rascunhos",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-sequencias-prospeccao-l4.svg",
+   "url": "bots/bot-sequencias-prospeccao-l4.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-sinais-contratacao-l2",
+   "type": "bot",
+   "name": "Radar de Sinais de Contratação",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Vagas abertas viram sinais de venda no CRM. Lê as vagas publicadas pelas empresas que você escolher, limpa duplicadas, dá nota pelo seu cliente ideal, mostra o que mudou e liga cada sinal à conta certa no CRM, com prova.",
+   "category": "Vendas",
+   "tags": [
+    "vendas",
+    "sinais de compra",
+    "vagas",
+    "prospecção",
+    "crm",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-sinais-contratacao-l2.svg",
+   "url": "bots/bot-sinais-contratacao-l2.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-supervisor-prs-l3",
+   "type": "bot",
+   "name": "Supervisor de PRs e Agentes",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Coordena tarefas de código e vigia cada PR até a revisão. Anota cada pedido num quadro, passa a codificação para subagentes, confere checks e comentários dos pull requests e avisa quando estão prontos para você revisar. O merge é sempre seu.",
+   "category": "Engenharia",
+   "tags": [
+    "engenharia",
+    "pull-requests",
+    "github",
+    "delegacao",
+    "notion",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-supervisor-prs-l3.svg",
+   "url": "bots/bot-supervisor-prs-l3.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-teste-ideias-l6",
+   "type": "bot",
+   "name": "Teste de Estresse de Ideias",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Põe sua ideia à prova e mostra o que pode derrubá-la. Antes de você investir tempo e dinheiro, examina sua ideia de produto ou negócio com dados do mundo real, encontra a suposição que mais pode dar errado e sugere o teste mais barato para tirar a dúvida.",
+   "category": "Produto",
+   "tags": [
+    "produto",
+    "validacao",
+    "startups",
+    "pesquisa",
+    "hipoteses",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-teste-ideias-l6.svg",
+   "url": "bots/bot-teste-ideias-l6.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-testes-anuncio-l1",
+   "type": "bot",
+   "name": "Montador de Testes de Anúncio",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Montador de testes de mensagem em anúncios pagos. Leva textos aprovados para campanhas de teste no Google Ads, sempre criadas pausadas. Primeiro uma planilha para você revisar, depois a montagem com capturas, e só liga com o seu sim.",
+   "category": "Marketing",
+   "tags": [
+    "mídia paga",
+    "google ads",
+    "testes",
+    "anúncios",
+    "marketing",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-testes-anuncio-l1.svg",
+   "url": "bots/bot-testes-anuncio-l1.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-texto-alternativo-l5",
+   "type": "bot",
+   "name": "Redator de Texto Alternativo",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Texto alternativo para imagens acessíveis. Descreve suas imagens em texto alternativo curto e objetivo, focado no que cada imagem comunica, para quem navega com leitor de tela. Sai pronto para colar no site ou na rede.",
+   "category": "Design",
+   "tags": [
+    "acessibilidade",
+    "alt text",
+    "imagens",
+    "design",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-texto-alternativo-l5.svg",
+   "url": "bots/bot-texto-alternativo-l5.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-treinador-ligacoes-venda-l5",
+   "type": "bot",
+   "name": "Treinador de Ligações de Venda",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Feedback com nota para ligações de venda. Lê a transcrição ou ouve a gravação da sua ligação de venda, dá nota em seis pontos fixos com trechos como prova e diz o que mudar primeiro na próxima conversa.",
+   "category": "Vendas",
+   "tags": [
+    "vendas",
+    "coaching",
+    "ligações",
+    "transcrição",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-treinador-ligacoes-venda-l5.svg",
+   "url": "bots/bot-treinador-ligacoes-venda-l5.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-triagem-leads-l1",
+   "type": "bot",
+   "name": "Triagem de Leads de Entrada",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Triador de leads de entrada e organizador do funil. Dá nota aos leads que chegam pelo site, formulários e eventos, junta cadastros repetidos, define dono e próximo passo e mostra quem está atrasado. Aceita planilha, CSV ou HubSpot.",
+   "category": "Vendas",
+   "tags": [
+    "leads",
+    "inbound",
+    "funil",
+    "crm",
+    "triagem",
+    "vendas",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-triagem-leads-l1.svg",
+   "url": "bots/bot-triagem-leads-l1.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-vigia-concorrentes-l5",
+   "type": "bot",
+   "name": "Vigia de Concorrentes",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Radar de mudanças nos sites dos concorrentes. Guarda cópias das páginas de preço, produto e vagas dos concorrentes, compara a cada rodada e avisa só o que mudou de verdade, com link e data. Parte de uma lista de endereços.",
+   "category": "Produto",
+   "tags": [
+    "concorrência",
+    "monitoramento",
+    "preços",
+    "produto",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-vigia-concorrentes-l5.svg",
+   "url": "bots/bot-vigia-concorrentes-l5.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-vigia-produto-concorrencia-l4",
+   "type": "bot",
+   "name": "Vigia de Produto da Concorrência",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Monitor de produto e preços dos concorrentes. Acompanha preços, novidades de versão, vagas, newsletters e páginas públicas dos concorrentes, registra o cadastro deles em capturas e sugere como se reposicionar. Só observa, nunca interage.",
+   "category": "Produto",
+   "tags": [
+    "concorrência",
+    "produto",
+    "preços",
+    "changelog",
+    "inteligência",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-vigia-produto-concorrencia-l4.svg",
+   "url": "bots/bot-vigia-produto-concorrencia-l4.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-vigia-verba-anuncios-l3",
+   "type": "bot",
+   "name": "Vigia de Verba de Anúncios",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Avisa quando o gasto de anúncios foge do combinado. Lê as exportações das suas campanhas pagas, compara gasto e resultados com os limites que você definiu e avisa o que saiu da linha, com a causa provável e o ajuste sugerido. Não mexe nas campanhas.",
+   "category": "Marketing",
+   "tags": [
+    "marketing",
+    "midia-paga",
+    "anuncios",
+    "alertas",
+    "orcamento",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-vigia-verba-anuncios-l3.svg",
+   "url": "bots/bot-vigia-verba-anuncios-l3.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "bot-visibilidade-ia-l6",
+   "type": "bot",
+   "name": "Visibilidade em Respostas de IA",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Sua marca aparece quando o cliente pergunta a uma IA?. Faz as perguntas que um comprador faria a buscadores e assistentes de IA, classifica como sua marca aparece em cada resposta e mostra quais concorrentes ocupam o espaço, com placar semanal e uma ação por semana.",
+   "category": "Marketing",
+   "tags": [
+    "seo",
+    "busca-ia",
+    "marketing",
+    "concorrencia",
+    "visibilidade",
+    "bot"
+   ],
+   "icon": "icons/bots/bot-visibilidade-ia-l6.svg",
+   "url": "bots/bot-visibilidade-ia-l6.json",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
+  },
+  {
+   "id": "site-com-cara-propria",
+   "type": "skill",
+   "name": "Site com cara própria",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Método para criar sites e landing pages que NÃO parecem modelo genérico — funcionalidades específicas do tipo de negócio (catálogo, agenda, cardápio, simulador…), identidade visual tirada do próprio negócio e checagem final anti-genérico. Use ao planejar, desenhar, construir ou revisar qualquer site ou página.",
+   "tags": [
+    "site",
+    "design",
+    "landing-page",
+    "ux",
+    "frontend"
+   ],
+   "icon": "icons/monitor.svg",
+   "url": "skills/site-com-cara-propria.zip",
    "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace"
   }
  ]
