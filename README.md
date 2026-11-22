@@ -21,3 +21,8 @@ No app: Configurações → Marketplace → Adicionar fonte → `https://github.
 - `version` diferente da instalada mostra o botão **Atualizar**. Só .zip (não .rar): o app extrai sem programa externo.
 
 Nunca coloque chaves de API nos arquivos: as skills devem ler variáveis de ambiente ou um `apikey.txt` local.
+
+## Créditos e licenças de terceiros
+
+- `skills/frontend-design.zip`: skill "frontend-design" da Anthropic (https://github.com/anthropics/skills), Apache-2.0, sem alterações; licença dentro do zip.
+- `skills/site-com-cara-propria.zip` (2.0.0 em diante): obra derivada (tradução, resumo e reorganização) de Impeccable, de Paul Bakaus (https://github.com/pbakaus/impeccable), e de frontend-design, da Anthropic, ambas Apache-2.0; licenças e NOTICE dentro do zip.
