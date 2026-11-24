@@ -7443,6 +7443,26 @@
    "url": "skills/as-pptx.zip",
    "homepage": "https://github.com/anthropics/skills/tree/main/skills/pptx",
    "botOnly": true
+  },
+  {
+   "id": "rea-reverse-engineer-anything",
+   "type": "pack",
+   "name": "REA · engenharia reversa (skill + servidor MCP)",
+   "version": "6.10.1",
+   "author": "morluto (REA, licença MIT) · pacote QualiIT",
+   "description": "Engenharia reversa com o REA: entende como um programa funciona por dentro (JavaScript/Electron, .NET, pacotes zip/apk/msix, binários nativos), mostra a evidência e ajuda a reconstruir. Instala a skill reverse-engineer-anything e o servidor MCP rea já configurado: o app baixa um Node compatível e o pacote rea-agents (~340 MB) e deixa as 263 ferramentas sob demanda, fora da lista do modelo. Requer Progress Code 0.17.15 ou mais novo. Descompilar .exe/.dll nativos exige Ghidra, IDA, Hopper ou Kuna instalados na máquina.",
+   "tags": [
+    "engenharia-reversa",
+    "mcp",
+    "descompilar",
+    "electron",
+    "dotnet",
+    "binarios"
+   ],
+   "icon": "🔬",
+   "url": "packs/rea-reverse-engineer-anything.zip",
+   "homepage": "https://github.com/morluto/rea",
+   "updatedAt": "2026-11-24"
   }
  ]
 }
