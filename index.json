@@ -7463,6 +7463,26 @@
    "url": "packs/rea-reverse-engineer-anything.zip",
    "homepage": "https://github.com/morluto/rea",
    "updatedAt": "2026-11-24"
+  },
+  {
+   "id": "video-narrado",
+   "type": "skill",
+   "name": "Vídeo narrado de um sistema web",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Grava um vídeo narrado (MP4 1080p com voz em português, legenda .srt e capítulos) de um site ou sistema web mexendo sozinho: o navegador clica, digita e arrasta seguindo um roteiro, uma voz de IA narra e o ffmpeg monta. Para demonstração, tutorial, vídeo de novidades ou de entrega para o cliente. A narração usa a chave do provedor OpenRouter configurado no Progress Code (0.17.16 ou mais novo). Na primeira vez, instala o que falta: bibliotecas do Python, ffmpeg pelo winget e, sem Edge nem Chrome, o navegador do Playwright. Precisa do Python 3.10 ou mais novo.",
+   "tags": [
+    "video",
+    "tutorial",
+    "demonstracao",
+    "narracao",
+    "playwright",
+    "ffmpeg"
+   ],
+   "icon": "🎬",
+   "url": "skills/video-narrado.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace",
+   "updatedAt": "2026-11-25"
   }
  ]
 }
