@@ -7863,6 +7863,46 @@
    "url": "skills/ek-write-swift.zip",
    "homepage": "https://github.com/emilkowalski/skills/tree/main/skills/write-swift",
    "updatedAt": "2026-11-26"
+  },
+  {
+   "id": "ddk-datasul",
+   "type": "skill",
+   "name": "Referência do DDK clássico do Datasul",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Referência do DDK clássico do TOTVS Datasul (Datasul Development Kit - templates AppBuilder/ADM1 e SmartObjects), levantada num framework real. Diz quais templates de tela existem e como reconhecer cada um (w-cadsim, w-cadcom, w-paifil, w-paiamb, w-incsim, w-relat, w-pesqui, d-vapara), quais includes existem e com que argumentos são chamados, as procedures internas de viewer, query, browser, containers e painéis com assinatura, os botões e ícones dos painéis (im-/ii-), tamanhos e cores padrão de tela, as variáveis globais do ut-glob.i e do i-rpvar.i com tipo, eventos e parâmetros de UPC/EPC, e as APIs utapi033 (Excel), ut-msgs, ut-acomp e ut-liter. Use sempre que for escrever, alterar ou revisar tela ou programa Progress do Datasul e surgir dúvida do tipo \"qual include\", \"qual procedure chamar\", \"esse evento de UPC existe\", \"qual ícone\", \"que tamanho tem o botão\", \"qual o tipo dessa variável global\", \"como é a assinatura\", em vez de responder de memória.",
+   "tags": [
+    "datasul",
+    "progress",
+    "ddk",
+    "abl",
+    "upc",
+    "referencia"
+   ],
+   "icon": "icons/progress-software.svg",
+   "url": "skills/ddk-datasul.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace",
+   "updatedAt": "2026-11-27"
+  },
+  {
+   "id": "progress-templates",
+   "type": "skill",
+   "name": "Modelos de programas Progress/Datasul (DDK)",
+   "version": "1.0.0",
+   "author": "QualiIT",
+   "description": "Modelos prontos e compilados de programas Progress 4GL/ABL para TOTVS Datasul (DDK clássico), para não começar programa novo do zero. Tem relatório com faixas de/até (tela .w + rp.p, saída texto e Excel pela utapi033), cadastro simples, cadastro pai e filho, zoom/pesquisa, UPC de tela, API REST + BO para PO-UI, carga de arquivo CSV on-line/RPW, .df de exemplo e utilitários (login pelo editor, exportar e importar DF, campos e índices, XREF de performance, compilar lista). Use sempre que o pedido for criar ou esboçar um programa Progress/Datasul novo, mesmo sem a palavra \"template\" - \"cria um relatório\", \"preciso de um cadastro\", \"tela pai e filho\", \"faz uma UPC para o programa X\", \"cria a API dessa tela\", \"programa de carga\", \"gera Excel\", \"script para exportar o DF\" - e também quando precisar de um exemplo comprovado de como um desses tipos é montado.",
+   "tags": [
+    "datasul",
+    "progress",
+    "ddk",
+    "abl",
+    "templates",
+    "po-ui"
+   ],
+   "icon": "icons/progress-software.svg",
+   "url": "skills/progress-templates.zip",
+   "homepage": "https://github.com/lucasnumaboa/progress-code-marketplace",
+   "updatedAt": "2026-11-27"
   }
  ]
 }
